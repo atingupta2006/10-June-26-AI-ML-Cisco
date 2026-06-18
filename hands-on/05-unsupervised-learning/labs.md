@@ -1,18 +1,6 @@
 # Day 05 — Labs
 
-**Theme:** Unsupervised Learning | **Lab time (6 labs):** ~280 min (~4.7 h)
-
-**Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
-
----
-
-## Before every lab
-
-**Environment:** one venv for all days — `setup_student_env.ps1` or `setup_student_env.sh` at repo root. Kernel: **Python (cisco-aiml-lab)**. [Lab execution guide](../../docs/lab-execution-guide.md).
-
-Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
-
-**Clustering features:** per-symbol aggregates — `avg_close`, `volatility`, `avg_volume`, `avg_range`.
+Kernel: **Python (cisco-aiml-lab)** · Run `notebooks/lab01` … `lab06` in order.
 
 ---
 

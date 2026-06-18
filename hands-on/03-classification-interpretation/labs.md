@@ -1,18 +1,6 @@
 # Day 03 — Labs
 
-**Theme:** Classification & Model Interpretation | **Lab time (6 labs):** ~305 min (~5.1 h)
-
-**Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
-
----
-
-## Before every lab
-
-**Environment:** one venv for all days — `setup_student_env.ps1` or `setup_student_env.sh` at repo root (includes `shap`). Kernel: **Python (cisco-aiml-lab)**. [Lab execution guide](../../docs/lab-execution-guide.md).
-
-Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
-
-**Target variable:** `default` = 1 when `loan_status` is `Charged Off` or `Late (31-120 days)`, else 0.
+Kernel: **Python (cisco-aiml-lab)** · Run `notebooks/lab01` … `lab06` in order.
 
 ---
 

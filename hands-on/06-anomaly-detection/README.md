@@ -1,35 +1,16 @@
 # Day 06 — Anomaly Detection
 
-**Theme:** Anomaly Detection
+Kernel: **Python (cisco-aiml-lab)** · Run `notebooks/lab01` … `lab06` in order.
 
-## Session focus
+**Data:** `data/credit-card/credit_card_transactions.csv` (1,000 rows, 10 fraud)
 
-- **Concepts:** Outliers, imbalanced data, resampling, proximity & ensemble detectors
-- **Use-case:** Credit card fraud detection
+| Lab | Notebook |
+|-----|----------|
+| 1 | `lab01_outlier_exploration.ipynb` |
+| 2 | `lab02_imbalance_analysis.ipynb` |
+| 3 | `lab03_resampling_lab.ipynb` |
+| 4 | `lab04_proximity_detector.ipynb` |
+| 5 | `lab05_ensemble_detector.ipynb` |
+| 6 | `lab06_capstone_fraud_report.ipynb` |
 
-## Before you start
-
-Read [lab execution guide](../../docs/lab-execution-guide.md) and open [labs.md](labs.md).
-
-## Data
-
-| File | Rows | Fraud | Path |
-|------|------|-------|------|
-| Credit card transactions | **1,000** | **10** | [`../../data/credit-card/credit_card_transactions.csv`](../../data/credit-card/credit_card_transactions.csv) |
-
-Kaggle reference: [Credit card](https://www.kaggle.com/mishra5001/credit-card)
-
-## Labs
-
-| Lab | Topic | Notebook |
-|-----|--------|--------|
-| 1 | Outlier exploration | `notebooks/lab01_outlier_exploration.ipynb` |
-| 2 | Imbalance analysis | `notebooks/lab02_imbalance_analysis.ipynb` |
-| 3 | Resampling | `notebooks/lab03_resampling_lab.ipynb` |
-| 4 | Proximity detector (LOF) | `notebooks/lab04_proximity_detector.ipynb` |
-| 5 | Ensemble detector (RF) | `notebooks/lab05_ensemble_detector.ipynb` |
-| 6 | Capstone fraud report | `notebooks/lab06_capstone_fraud_report.ipynb` |
-
-## Syllabus
-
-[Course overview](../../docs/course-overview.md)
+Task details: `labs.md` in this folder.

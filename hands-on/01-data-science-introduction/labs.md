@@ -1,20 +1,6 @@
 # Day 01 — Labs
 
-**Theme:** Data Science Introduction | **Lab time (6 labs):** ~435 min (~7.2 h)
-
-**Execution guide:** [docs/lab-execution-guide.md](../../docs/lab-execution-guide.md) — read before Lab 1.
-
-**Recommended order:** `lab01` → `lab02` → `lab03` → `lab04` → `lab05` → `lab06` (one narrative arc on `team_sales.csv`).
-
----
-
-## Before every lab
-
-**Environment:** one venv for all days — run `setup_student_env.ps1` (Windows) or `setup_student_env.sh` (Linux/Mac) once at repo root. See [lab execution guide](../../docs/lab-execution-guide.md). Jupyter kernel: **Python (cisco-aiml-lab)**.
-
-Labs 1, 2, and 5 are **discussion / worksheet** activities (light code).
-
-Labs 3, 4, and 6 are **hands-on** on [`team_sales.csv`](../../data/team-sales/team_sales.csv) (**100** rows) — use **Excel and/or the Jupyter notebook** (notebooks are the primary path). Lab 6 is a **group Excel activity** with Python verification in the notebook.
+Kernel: **Python (cisco-aiml-lab)** · Run `notebooks/lab01` … `lab06` in order.
 
 ---
 
