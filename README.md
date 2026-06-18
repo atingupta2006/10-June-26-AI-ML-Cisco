@@ -1,6 +1,6 @@
 # Cisco AI & Machine Learning — Student Repo (June 2026)
 
-Support-ops focused training: **logs, tickets, Gen AI, RAG, MCP, and agentic workflows**.
+Six-day hands-on course: **logs, tickets, Gen AI, RAG, MCP, and agentic workflows**.
 
 ## Setup (once)
 
@@ -20,6 +20,6 @@ Kernel: **Python (cisco-aiml-lab)**
 | 5 | `hands-on/05-unsupervised-learning/` | RAG, MCP, agents |
 | 6 | `hands-on/06-anomaly-detection/` | Security, capstone |
 
-**Data:** `data/support-ops/` (tickets, network, router, security logs, KB snippets)
+**Data:** `data/support-ops/`
 
 Docs: `docs/student-quick-start.md` · `docs/student-troubleshooting.md`

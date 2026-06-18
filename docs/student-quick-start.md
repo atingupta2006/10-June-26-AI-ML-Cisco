@@ -31,6 +31,6 @@ Your instructor will say which day to open. Path pattern:
 
 `hands-on/<day-folder>/notebooks/lab01_….ipynb` … `lab06_….ipynb`
 
-Use the CSV files in `data/` — do not replace them with full Kaggle downloads unless asked.
+Use the CSV files in `data/support-ops/` for all labs.
 
 Problems? See `student-troubleshooting.md` in this folder.

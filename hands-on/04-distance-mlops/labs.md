@@ -26,7 +26,7 @@ Data: `data/support-ops/`
 
 ## Done when
 
-- Ollama response OR graceful skip message
+- Notebook completes (Ollama optional)
 
 # Lab 5 — Compare summaries
 

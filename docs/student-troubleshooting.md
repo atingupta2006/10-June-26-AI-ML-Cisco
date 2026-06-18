@@ -14,11 +14,7 @@
 |---------|-------------|
 | CSV not found | Open the notebook from `hands-on/<day>/notebooks/` and run from the top |
 | Assert failed | Check **Numbers to compare** in that day's `labs.md` |
-| Row count wrong | Use files in `data/` only |
-
-## Day 1 Excel lab
-
-Pivot rows = `region`, not `team`. File: `data/team-sales/team_sales.csv` (100 rows).
+| Row count wrong | Use files in `data/support-ops/` only |
 
 ## Still stuck?
 

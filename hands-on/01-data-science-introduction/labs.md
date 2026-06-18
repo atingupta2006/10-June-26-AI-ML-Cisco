@@ -32,7 +32,7 @@ Data: `data/support-ops/`
 
 ## Done when
 
-- Tools mapped; no MLOps listed
+- Tools mapped to automation phases
 
 # Lab 6 — Automation ideas
 
