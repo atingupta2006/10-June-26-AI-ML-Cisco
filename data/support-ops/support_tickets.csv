@@ -1,0 +1,801 @@
+ticket_id,created_date,product,feature,severity,summary,status,resolved_days
+T00001,2025-11-24,IOS-XE,VPN tunnel drop,low,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,12
+T00002,2025-02-22,Webex,Auth failure,medium,Customer reports auth failure on Webex; intermittent since last change window.,resolved,1
+T00003,2025-01-16,IOS-XE,BGP peering,medium,Customer reports bgp peering on IOS-XE; intermittent since last change window.,open,
+T00004,2025-04-12,Webex,License activation,medium,Customer reports license activation on Webex; intermittent since last change window.,resolved,10
+T00005,2025-05-23,IOS-XE,Auth failure,low,Customer reports auth failure on IOS-XE; intermittent since last change window.,resolved,5
+T00006,2025-03-21,NX-OS,Config sync,low,Customer reports config sync on NX-OS; intermittent since last change window.,open,
+T00007,2025-02-19,ASA,DNS resolution,medium,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,12
+T00008,2025-08-24,Meraki,VPN tunnel drop,critical,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00009,2025-05-31,Webex,License activation,high,Customer reports license activation on Webex; intermittent since last change window.,resolved,12
+T00010,2025-02-05,IOS-XE,Firmware upgrade,high,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,pending,
+T00011,2025-04-30,IOS-XE,Interface flapping,medium,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,3
+T00012,2025-07-09,ASA,BGP peering,low,Customer reports bgp peering on ASA; intermittent since last change window.,pending,
+T00013,2025-11-28,IOS-XE,License activation,low,Customer reports license activation on IOS-XE; intermittent since last change window.,resolved,3
+T00014,2025-08-25,UCS,BGP peering,critical,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,4
+T00015,2025-12-17,ASA,DNS resolution,high,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,1
+T00016,2025-06-11,UCS,BGP peering,low,Customer reports bgp peering on UCS; intermittent since last change window.,pending,
+T00017,2025-06-11,NX-OS,License activation,low,Customer reports license activation on NX-OS; intermittent since last change window.,pending,
+T00018,2025-08-23,NX-OS,BGP peering,low,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,5
+T00019,2025-10-27,UCS,Packet loss,low,Customer reports packet loss on UCS; intermittent since last change window.,resolved,3
+T00020,2025-09-18,UCS,VPN tunnel drop,low,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,open,
+T00021,2025-11-18,NX-OS,Auth failure,medium,Customer reports auth failure on NX-OS; intermittent since last change window.,open,
+T00022,2025-07-15,Meraki,HA failover,medium,Customer reports ha failover on Meraki; intermittent since last change window.,pending,
+T00023,2025-01-06,Webex,Firmware upgrade,medium,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,5
+T00024,2025-11-25,ASA,VPN tunnel drop,medium,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,12
+T00025,2025-05-15,Meraki,Auth failure,medium,Customer reports auth failure on Meraki; intermittent since last change window.,open,
+T00026,2025-11-17,ASA,DNS resolution,medium,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,6
+T00027,2025-03-24,Meraki,Config sync,critical,Customer reports config sync on Meraki; intermittent since last change window.,pending,
+T00028,2025-11-03,ASA,CPU spike,low,Customer reports cpu spike on ASA; intermittent since last change window.,resolved,14
+T00029,2025-06-07,NX-OS,VPN tunnel drop,high,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,pending,
+T00030,2025-02-13,Webex,CPU spike,low,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,13
+T00031,2025-03-06,NX-OS,Firmware upgrade,critical,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,9
+T00032,2025-11-07,UCS,HA failover,critical,Customer reports ha failover on UCS; intermittent since last change window.,resolved,12
+T00033,2025-04-13,Webex,Interface flapping,critical,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,8
+T00034,2025-09-22,UCS,VPN tunnel drop,low,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,10
+T00035,2025-10-11,NX-OS,License activation,low,Customer reports license activation on NX-OS; intermittent since last change window.,resolved,1
+T00036,2025-04-28,IOS-XE,Packet loss,high,Customer reports packet loss on IOS-XE; intermittent since last change window.,open,
+T00037,2025-05-02,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,open,
+T00038,2025-10-20,Meraki,CPU spike,high,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,4
+T00039,2025-02-18,IOS-XE,Firmware upgrade,low,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,resolved,14
+T00040,2025-01-28,Webex,License activation,medium,Customer reports license activation on Webex; intermittent since last change window.,open,
+T00041,2025-06-23,IOS-XE,BGP peering,low,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,7
+T00042,2025-04-04,ASA,CPU spike,high,Customer reports cpu spike on ASA; intermittent since last change window.,open,
+T00043,2025-10-09,IOS-XE,VPN tunnel drop,critical,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,2
+T00044,2025-05-02,NX-OS,CPU spike,medium,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,1
+T00045,2025-03-26,UCS,VPN tunnel drop,low,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,pending,
+T00046,2025-08-21,ASA,CPU spike,critical,Customer reports cpu spike on ASA; intermittent since last change window.,pending,
+T00047,2025-10-12,Webex,Firmware upgrade,low,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,1
+T00048,2025-10-24,Webex,Memory leak,high,Customer reports memory leak on Webex; intermittent since last change window.,open,
+T00049,2025-10-27,UCS,Memory leak,high,Customer reports memory leak on UCS; intermittent since last change window.,resolved,9
+T00050,2025-02-11,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,7
+T00051,2025-03-03,Meraki,BGP peering,medium,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,7
+T00052,2025-12-03,Meraki,Memory leak,low,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,11
+T00053,2025-06-10,NX-OS,BGP peering,low,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,8
+T00054,2025-06-11,IOS-XE,VPN tunnel drop,medium,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,2
+T00055,2025-02-07,Meraki,BGP peering,low,Customer reports bgp peering on Meraki; intermittent since last change window.,pending,
+T00056,2025-02-05,NX-OS,Interface flapping,low,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,12
+T00057,2025-06-04,Meraki,HA failover,high,Customer reports ha failover on Meraki; intermittent since last change window.,resolved,11
+T00058,2025-10-11,ASA,Config sync,low,Customer reports config sync on ASA; intermittent since last change window.,resolved,5
+T00059,2025-03-01,IOS-XE,Auth failure,low,Customer reports auth failure on IOS-XE; intermittent since last change window.,resolved,4
+T00060,2025-06-25,NX-OS,Firmware upgrade,high,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,5
+T00061,2025-01-27,IOS-XE,License activation,high,Customer reports license activation on IOS-XE; intermittent since last change window.,open,
+T00062,2025-06-20,NX-OS,License activation,low,Customer reports license activation on NX-OS; intermittent since last change window.,resolved,9
+T00063,2025-12-28,UCS,Memory leak,low,Customer reports memory leak on UCS; intermittent since last change window.,pending,
+T00064,2025-12-20,NX-OS,Memory leak,high,Customer reports memory leak on NX-OS; intermittent since last change window.,resolved,3
+T00065,2025-08-09,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,pending,
+T00066,2025-01-21,ASA,BGP peering,low,Customer reports bgp peering on ASA; intermittent since last change window.,open,
+T00067,2025-10-14,UCS,HA failover,high,Customer reports ha failover on UCS; intermittent since last change window.,pending,
+T00068,2025-05-02,NX-OS,HA failover,high,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,1
+T00069,2025-04-02,Webex,Config sync,high,Customer reports config sync on Webex; intermittent since last change window.,resolved,11
+T00070,2025-05-08,ASA,BGP peering,high,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,1
+T00071,2025-08-29,NX-OS,BGP peering,critical,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,14
+T00072,2025-04-27,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,14
+T00073,2025-02-05,ASA,Interface flapping,medium,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,14
+T00074,2025-10-02,ASA,Config sync,low,Customer reports config sync on ASA; intermittent since last change window.,pending,
+T00075,2025-04-02,Meraki,HA failover,low,Customer reports ha failover on Meraki; intermittent since last change window.,open,
+T00076,2025-08-11,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,9
+T00077,2025-03-01,UCS,Packet loss,low,Customer reports packet loss on UCS; intermittent since last change window.,open,
+T00078,2025-08-12,IOS-XE,Memory leak,high,Customer reports memory leak on IOS-XE; intermittent since last change window.,resolved,12
+T00079,2025-12-10,NX-OS,Interface flapping,low,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,6
+T00080,2025-11-16,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,pending,
+T00081,2025-09-17,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,9
+T00082,2025-03-07,NX-OS,CPU spike,critical,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,3
+T00083,2025-11-12,Meraki,Interface flapping,medium,Customer reports interface flapping on Meraki; intermittent since last change window.,open,
+T00084,2025-05-27,NX-OS,CPU spike,medium,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,8
+T00085,2025-08-15,UCS,Firmware upgrade,medium,Customer reports firmware upgrade on UCS; intermittent since last change window.,resolved,13
+T00086,2025-03-28,Webex,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,6
+T00087,2025-02-17,NX-OS,Firmware upgrade,low,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,1
+T00088,2025-01-24,NX-OS,HA failover,medium,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,8
+T00089,2025-08-01,Webex,Memory leak,high,Customer reports memory leak on Webex; intermittent since last change window.,resolved,7
+T00090,2025-05-05,NX-OS,License activation,low,Customer reports license activation on NX-OS; intermittent since last change window.,resolved,13
+T00091,2025-02-24,UCS,BGP peering,high,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,8
+T00092,2025-01-26,Meraki,BGP peering,high,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,13
+T00093,2025-08-26,Webex,Memory leak,medium,Customer reports memory leak on Webex; intermittent since last change window.,resolved,13
+T00094,2025-08-15,Meraki,DNS resolution,high,Customer reports dns resolution on Meraki; intermittent since last change window.,resolved,9
+T00095,2025-08-17,NX-OS,Auth failure,medium,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,4
+T00096,2025-11-23,ASA,Auth failure,medium,Customer reports auth failure on ASA; intermittent since last change window.,resolved,5
+T00097,2025-08-14,IOS-XE,Firmware upgrade,low,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,resolved,9
+T00098,2025-02-11,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,4
+T00099,2025-02-02,UCS,CPU spike,medium,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,4
+T00100,2025-08-04,UCS,Packet loss,medium,Customer reports packet loss on UCS; intermittent since last change window.,resolved,14
+T00101,2025-10-22,UCS,CPU spike,critical,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,7
+T00102,2025-08-03,Meraki,Auth failure,medium,Customer reports auth failure on Meraki; intermittent since last change window.,resolved,4
+T00103,2025-09-07,NX-OS,BGP peering,medium,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,11
+T00104,2025-12-14,UCS,Firmware upgrade,high,Customer reports firmware upgrade on UCS; intermittent since last change window.,pending,
+T00105,2025-11-15,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,1
+T00106,2025-02-12,Webex,CPU spike,high,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,5
+T00107,2025-07-14,ASA,BGP peering,low,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,7
+T00108,2025-05-23,UCS,BGP peering,low,Customer reports bgp peering on UCS; intermittent since last change window.,open,
+T00109,2025-10-04,IOS-XE,HA failover,low,Customer reports ha failover on IOS-XE; intermittent since last change window.,resolved,13
+T00110,2025-11-30,IOS-XE,Auth failure,critical,Customer reports auth failure on IOS-XE; intermittent since last change window.,resolved,1
+T00111,2025-11-15,NX-OS,BGP peering,medium,Customer reports bgp peering on NX-OS; intermittent since last change window.,open,
+T00112,2025-04-22,UCS,Firmware upgrade,high,Customer reports firmware upgrade on UCS; intermittent since last change window.,resolved,10
+T00113,2025-02-28,NX-OS,HA failover,low,Customer reports ha failover on NX-OS; intermittent since last change window.,open,
+T00114,2025-06-09,Meraki,Firmware upgrade,critical,Customer reports firmware upgrade on Meraki; intermittent since last change window.,resolved,12
+T00115,2025-04-12,IOS-XE,License activation,high,Customer reports license activation on IOS-XE; intermittent since last change window.,resolved,12
+T00116,2025-06-04,Webex,License activation,low,Customer reports license activation on Webex; intermittent since last change window.,pending,
+T00117,2025-01-22,ASA,Memory leak,medium,Customer reports memory leak on ASA; intermittent since last change window.,open,
+T00118,2025-11-28,ASA,VPN tunnel drop,medium,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,7
+T00119,2025-07-05,Webex,Packet loss,medium,Customer reports packet loss on Webex; intermittent since last change window.,resolved,3
+T00120,2025-09-25,Webex,BGP peering,high,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,8
+T00121,2025-08-27,UCS,DNS resolution,medium,Customer reports dns resolution on UCS; intermittent since last change window.,resolved,4
+T00122,2025-02-14,ASA,Packet loss,low,Customer reports packet loss on ASA; intermittent since last change window.,resolved,10
+T00123,2025-12-09,UCS,Interface flapping,medium,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,8
+T00124,2025-04-19,ASA,DNS resolution,low,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,12
+T00125,2025-05-22,Meraki,VPN tunnel drop,critical,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00126,2025-07-28,UCS,Memory leak,low,Customer reports memory leak on UCS; intermittent since last change window.,resolved,12
+T00127,2025-09-09,UCS,Auth failure,low,Customer reports auth failure on UCS; intermittent since last change window.,resolved,12
+T00128,2025-05-05,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,6
+T00129,2025-08-06,Webex,Memory leak,low,Customer reports memory leak on Webex; intermittent since last change window.,resolved,5
+T00130,2025-05-09,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,open,
+T00131,2025-10-02,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,12
+T00132,2025-10-29,Meraki,License activation,critical,Customer reports license activation on Meraki; intermittent since last change window.,resolved,5
+T00133,2025-04-27,ASA,BGP peering,low,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,5
+T00134,2025-01-24,IOS-XE,Memory leak,medium,Customer reports memory leak on IOS-XE; intermittent since last change window.,open,
+T00135,2025-09-09,IOS-XE,Packet loss,medium,Customer reports packet loss on IOS-XE; intermittent since last change window.,resolved,8
+T00136,2025-06-24,NX-OS,HA failover,low,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,2
+T00137,2025-02-03,UCS,CPU spike,medium,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,3
+T00138,2025-03-18,Meraki,Config sync,low,Customer reports config sync on Meraki; intermittent since last change window.,resolved,9
+T00139,2025-08-02,Meraki,License activation,medium,Customer reports license activation on Meraki; intermittent since last change window.,resolved,7
+T00140,2025-08-19,UCS,Interface flapping,medium,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,10
+T00141,2025-11-14,IOS-XE,License activation,high,Customer reports license activation on IOS-XE; intermittent since last change window.,pending,
+T00142,2025-04-17,Webex,BGP peering,medium,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,3
+T00143,2025-10-10,IOS-XE,BGP peering,medium,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,8
+T00144,2025-05-30,IOS-XE,BGP peering,high,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,8
+T00145,2025-02-06,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,10
+T00146,2025-12-05,NX-OS,CPU spike,medium,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,5
+T00147,2025-03-14,IOS-XE,VPN tunnel drop,high,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,14
+T00148,2025-10-19,ASA,CPU spike,medium,Customer reports cpu spike on ASA; intermittent since last change window.,resolved,7
+T00149,2025-05-20,Meraki,Memory leak,medium,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,7
+T00150,2025-06-15,Meraki,BGP peering,low,Customer reports bgp peering on Meraki; intermittent since last change window.,pending,
+T00151,2025-10-22,Meraki,Config sync,critical,Customer reports config sync on Meraki; intermittent since last change window.,resolved,5
+T00152,2025-10-23,IOS-XE,Auth failure,low,Customer reports auth failure on IOS-XE; intermittent since last change window.,resolved,8
+T00153,2025-05-23,NX-OS,HA failover,medium,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,2
+T00154,2025-08-29,ASA,CPU spike,low,Customer reports cpu spike on ASA; intermittent since last change window.,open,
+T00155,2025-03-24,ASA,CPU spike,medium,Customer reports cpu spike on ASA; intermittent since last change window.,resolved,7
+T00156,2025-10-09,IOS-XE,CPU spike,low,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,13
+T00157,2025-07-26,Meraki,DNS resolution,low,Customer reports dns resolution on Meraki; intermittent since last change window.,resolved,8
+T00158,2025-07-31,IOS-XE,BGP peering,low,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,11
+T00159,2025-08-15,IOS-XE,BGP peering,medium,Customer reports bgp peering on IOS-XE; intermittent since last change window.,pending,
+T00160,2025-08-13,Webex,CPU spike,low,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,13
+T00161,2025-05-03,Webex,BGP peering,medium,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,2
+T00162,2025-04-26,IOS-XE,CPU spike,low,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,8
+T00163,2025-05-30,Meraki,Firmware upgrade,medium,Customer reports firmware upgrade on Meraki; intermittent since last change window.,resolved,8
+T00164,2025-05-05,UCS,Memory leak,low,Customer reports memory leak on UCS; intermittent since last change window.,pending,
+T00165,2025-09-18,Webex,Packet loss,high,Customer reports packet loss on Webex; intermittent since last change window.,resolved,13
+T00166,2025-08-01,ASA,Config sync,medium,Customer reports config sync on ASA; intermittent since last change window.,resolved,5
+T00167,2025-06-02,Meraki,Memory leak,medium,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,8
+T00168,2025-10-03,UCS,Interface flapping,medium,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,8
+T00169,2025-06-14,NX-OS,HA failover,low,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,14
+T00170,2025-07-30,IOS-XE,Interface flapping,medium,Customer reports interface flapping on IOS-XE; intermittent since last change window.,pending,
+T00171,2025-07-15,UCS,HA failover,high,Customer reports ha failover on UCS; intermittent since last change window.,resolved,3
+T00172,2025-09-11,IOS-XE,VPN tunnel drop,critical,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,2
+T00173,2025-08-14,IOS-XE,Memory leak,medium,Customer reports memory leak on IOS-XE; intermittent since last change window.,resolved,7
+T00174,2025-12-02,NX-OS,VPN tunnel drop,high,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,10
+T00175,2025-12-21,UCS,License activation,high,Customer reports license activation on UCS; intermittent since last change window.,resolved,14
+T00176,2025-10-01,UCS,Config sync,medium,Customer reports config sync on UCS; intermittent since last change window.,resolved,8
+T00177,2025-10-05,IOS-XE,License activation,low,Customer reports license activation on IOS-XE; intermittent since last change window.,resolved,5
+T00178,2025-04-27,Webex,VPN tunnel drop,critical,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,12
+T00179,2025-02-21,UCS,BGP peering,low,Customer reports bgp peering on UCS; intermittent since last change window.,open,
+T00180,2025-06-16,IOS-XE,Interface flapping,low,Customer reports interface flapping on IOS-XE; intermittent since last change window.,open,
+T00181,2025-09-29,UCS,Memory leak,high,Customer reports memory leak on UCS; intermittent since last change window.,resolved,2
+T00182,2025-11-09,UCS,License activation,low,Customer reports license activation on UCS; intermittent since last change window.,pending,
+T00183,2025-03-15,NX-OS,CPU spike,low,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,1
+T00184,2025-08-27,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,6
+T00185,2025-10-28,ASA,License activation,medium,Customer reports license activation on ASA; intermittent since last change window.,resolved,14
+T00186,2025-06-04,NX-OS,HA failover,high,Customer reports ha failover on NX-OS; intermittent since last change window.,open,
+T00187,2025-07-15,Meraki,Interface flapping,low,Customer reports interface flapping on Meraki; intermittent since last change window.,resolved,1
+T00188,2025-12-04,UCS,BGP peering,medium,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,12
+T00189,2025-01-26,Meraki,Auth failure,high,Customer reports auth failure on Meraki; intermittent since last change window.,pending,
+T00190,2025-04-28,Meraki,DNS resolution,low,Customer reports dns resolution on Meraki; intermittent since last change window.,resolved,5
+T00191,2025-12-14,Webex,Auth failure,medium,Customer reports auth failure on Webex; intermittent since last change window.,open,
+T00192,2025-02-19,Webex,License activation,low,Customer reports license activation on Webex; intermittent since last change window.,resolved,10
+T00193,2025-07-06,Webex,VPN tunnel drop,critical,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,7
+T00194,2025-03-31,NX-OS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,pending,
+T00195,2025-09-29,Meraki,Config sync,high,Customer reports config sync on Meraki; intermittent since last change window.,resolved,14
+T00196,2025-09-04,ASA,Auth failure,low,Customer reports auth failure on ASA; intermittent since last change window.,open,
+T00197,2025-02-08,NX-OS,Auth failure,low,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,11
+T00198,2025-07-23,Meraki,Interface flapping,high,Customer reports interface flapping on Meraki; intermittent since last change window.,open,
+T00199,2025-10-02,IOS-XE,CPU spike,medium,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,10
+T00200,2025-07-15,Webex,Config sync,low,Customer reports config sync on Webex; intermittent since last change window.,resolved,1
+T00201,2025-11-14,Meraki,Interface flapping,medium,Customer reports interface flapping on Meraki; intermittent since last change window.,resolved,11
+T00202,2025-08-26,Webex,Interface flapping,medium,Customer reports interface flapping on Webex; intermittent since last change window.,open,
+T00203,2025-01-20,ASA,HA failover,low,Customer reports ha failover on ASA; intermittent since last change window.,resolved,9
+T00204,2025-03-11,UCS,CPU spike,medium,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,9
+T00205,2025-08-03,Meraki,Auth failure,low,Customer reports auth failure on Meraki; intermittent since last change window.,resolved,2
+T00206,2025-09-08,Meraki,CPU spike,critical,Customer reports cpu spike on Meraki; intermittent since last change window.,open,
+T00207,2025-07-09,NX-OS,CPU spike,critical,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,2
+T00208,2025-12-18,ASA,Memory leak,critical,Customer reports memory leak on ASA; intermittent since last change window.,resolved,7
+T00209,2025-05-22,NX-OS,HA failover,critical,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,2
+T00210,2025-12-06,NX-OS,License activation,medium,Customer reports license activation on NX-OS; intermittent since last change window.,open,
+T00211,2025-06-20,NX-OS,HA failover,high,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,14
+T00212,2025-10-11,NX-OS,License activation,high,Customer reports license activation on NX-OS; intermittent since last change window.,resolved,13
+T00213,2025-03-17,Meraki,VPN tunnel drop,high,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00214,2025-03-08,Meraki,BGP peering,low,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,1
+T00215,2025-03-09,IOS-XE,Interface flapping,high,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,1
+T00216,2025-03-31,ASA,VPN tunnel drop,high,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,12
+T00217,2025-02-02,UCS,CPU spike,low,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,8
+T00218,2025-09-15,NX-OS,Config sync,low,Customer reports config sync on NX-OS; intermittent since last change window.,resolved,14
+T00219,2025-12-04,Meraki,Interface flapping,medium,Customer reports interface flapping on Meraki; intermittent since last change window.,open,
+T00220,2025-09-03,UCS,CPU spike,low,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,8
+T00221,2025-02-07,IOS-XE,Interface flapping,low,Customer reports interface flapping on IOS-XE; intermittent since last change window.,open,
+T00222,2025-11-16,Webex,License activation,high,Customer reports license activation on Webex; intermittent since last change window.,resolved,10
+T00223,2025-09-29,ASA,CPU spike,medium,Customer reports cpu spike on ASA; intermittent since last change window.,open,
+T00224,2025-12-26,IOS-XE,DNS resolution,medium,Customer reports dns resolution on IOS-XE; intermittent since last change window.,resolved,12
+T00225,2025-04-21,UCS,CPU spike,low,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,8
+T00226,2025-07-24,UCS,Firmware upgrade,low,Customer reports firmware upgrade on UCS; intermittent since last change window.,resolved,5
+T00227,2025-07-11,NX-OS,Firmware upgrade,medium,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,open,
+T00228,2025-02-13,IOS-XE,CPU spike,high,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,3
+T00229,2025-10-12,IOS-XE,License activation,medium,Customer reports license activation on IOS-XE; intermittent since last change window.,resolved,2
+T00230,2025-07-30,ASA,Packet loss,critical,Customer reports packet loss on ASA; intermittent since last change window.,resolved,12
+T00231,2025-01-27,ASA,License activation,low,Customer reports license activation on ASA; intermittent since last change window.,resolved,4
+T00232,2025-03-21,Webex,CPU spike,high,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,9
+T00233,2025-07-08,IOS-XE,Auth failure,medium,Customer reports auth failure on IOS-XE; intermittent since last change window.,resolved,14
+T00234,2025-10-15,Meraki,License activation,medium,Customer reports license activation on Meraki; intermittent since last change window.,open,
+T00235,2025-12-03,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,5
+T00236,2025-06-23,ASA,VPN tunnel drop,high,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,7
+T00237,2025-02-05,NX-OS,Auth failure,critical,Customer reports auth failure on NX-OS; intermittent since last change window.,open,
+T00238,2025-09-29,NX-OS,Interface flapping,medium,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,5
+T00239,2025-06-16,Meraki,License activation,high,Customer reports license activation on Meraki; intermittent since last change window.,resolved,13
+T00240,2025-11-13,IOS-XE,Firmware upgrade,low,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,resolved,8
+T00241,2025-11-07,UCS,CPU spike,low,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,6
+T00242,2025-08-09,IOS-XE,Interface flapping,medium,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,11
+T00243,2025-06-07,IOS-XE,BGP peering,critical,Customer reports bgp peering on IOS-XE; intermittent since last change window.,open,
+T00244,2025-04-15,ASA,Config sync,high,Customer reports config sync on ASA; intermittent since last change window.,resolved,5
+T00245,2025-06-17,IOS-XE,VPN tunnel drop,high,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,7
+T00246,2025-09-30,Webex,BGP peering,medium,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,6
+T00247,2025-02-06,UCS,Packet loss,low,Customer reports packet loss on UCS; intermittent since last change window.,open,
+T00248,2025-02-09,ASA,Memory leak,medium,Customer reports memory leak on ASA; intermittent since last change window.,resolved,7
+T00249,2025-05-29,IOS-XE,CPU spike,critical,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,10
+T00250,2025-08-24,Webex,Config sync,low,Customer reports config sync on Webex; intermittent since last change window.,resolved,4
+T00251,2025-08-12,Meraki,CPU spike,low,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,12
+T00252,2025-06-23,NX-OS,Interface flapping,low,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,2
+T00253,2025-09-29,Meraki,BGP peering,high,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,14
+T00254,2025-11-27,NX-OS,BGP peering,low,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,10
+T00255,2025-03-20,Webex,VPN tunnel drop,critical,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,8
+T00256,2025-10-16,Meraki,CPU spike,critical,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,11
+T00257,2025-11-16,ASA,Packet loss,medium,Customer reports packet loss on ASA; intermittent since last change window.,resolved,2
+T00258,2025-08-29,UCS,License activation,high,Customer reports license activation on UCS; intermittent since last change window.,resolved,6
+T00259,2025-09-17,IOS-XE,Interface flapping,medium,Customer reports interface flapping on IOS-XE; intermittent since last change window.,open,
+T00260,2025-05-27,IOS-XE,License activation,critical,Customer reports license activation on IOS-XE; intermittent since last change window.,open,
+T00261,2025-11-01,Meraki,Interface flapping,medium,Customer reports interface flapping on Meraki; intermittent since last change window.,pending,
+T00262,2025-01-22,UCS,Packet loss,medium,Customer reports packet loss on UCS; intermittent since last change window.,resolved,10
+T00263,2025-09-01,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00264,2025-06-25,Webex,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,open,
+T00265,2025-12-29,UCS,HA failover,medium,Customer reports ha failover on UCS; intermittent since last change window.,resolved,6
+T00266,2025-07-10,ASA,Interface flapping,high,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,1
+T00267,2025-11-20,Webex,Interface flapping,low,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,7
+T00268,2025-05-26,ASA,Firmware upgrade,medium,Customer reports firmware upgrade on ASA; intermittent since last change window.,pending,
+T00269,2025-03-18,ASA,VPN tunnel drop,medium,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,pending,
+T00270,2025-06-08,Webex,Firmware upgrade,low,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,2
+T00271,2025-06-08,Meraki,Interface flapping,high,Customer reports interface flapping on Meraki; intermittent since last change window.,resolved,11
+T00272,2025-12-26,Webex,HA failover,critical,Customer reports ha failover on Webex; intermittent since last change window.,open,
+T00273,2025-12-10,UCS,Memory leak,low,Customer reports memory leak on UCS; intermittent since last change window.,resolved,4
+T00274,2025-06-24,UCS,BGP peering,critical,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,5
+T00275,2025-02-21,Meraki,Auth failure,high,Customer reports auth failure on Meraki; intermittent since last change window.,resolved,1
+T00276,2025-12-05,ASA,Packet loss,medium,Customer reports packet loss on ASA; intermittent since last change window.,resolved,3
+T00277,2025-03-25,NX-OS,DNS resolution,high,Customer reports dns resolution on NX-OS; intermittent since last change window.,resolved,3
+T00278,2025-08-13,IOS-XE,CPU spike,medium,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,8
+T00279,2025-11-09,ASA,Auth failure,high,Customer reports auth failure on ASA; intermittent since last change window.,resolved,4
+T00280,2025-06-08,UCS,Packet loss,low,Customer reports packet loss on UCS; intermittent since last change window.,resolved,10
+T00281,2025-08-14,UCS,Auth failure,high,Customer reports auth failure on UCS; intermittent since last change window.,resolved,7
+T00282,2025-03-24,NX-OS,DNS resolution,low,Customer reports dns resolution on NX-OS; intermittent since last change window.,resolved,11
+T00283,2025-09-04,ASA,Memory leak,low,Customer reports memory leak on ASA; intermittent since last change window.,resolved,14
+T00284,2025-03-05,ASA,VPN tunnel drop,low,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,9
+T00285,2025-03-17,UCS,VPN tunnel drop,critical,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,6
+T00286,2025-01-14,UCS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,2
+T00287,2025-07-11,NX-OS,VPN tunnel drop,critical,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,11
+T00288,2025-06-21,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,12
+T00289,2025-03-13,Webex,CPU spike,medium,Customer reports cpu spike on Webex; intermittent since last change window.,pending,
+T00290,2025-01-10,ASA,BGP peering,low,Customer reports bgp peering on ASA; intermittent since last change window.,pending,
+T00291,2025-11-08,Meraki,CPU spike,high,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,2
+T00292,2025-01-25,NX-OS,CPU spike,high,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,2
+T00293,2025-09-13,Meraki,Memory leak,medium,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,12
+T00294,2025-03-15,ASA,CPU spike,medium,Customer reports cpu spike on ASA; intermittent since last change window.,resolved,7
+T00295,2025-04-06,Webex,Firmware upgrade,medium,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,9
+T00296,2025-10-06,Meraki,Auth failure,medium,Customer reports auth failure on Meraki; intermittent since last change window.,open,
+T00297,2025-08-29,IOS-XE,License activation,critical,Customer reports license activation on IOS-XE; intermittent since last change window.,resolved,1
+T00298,2025-07-02,IOS-XE,Interface flapping,high,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,13
+T00299,2025-10-25,Webex,Auth failure,low,Customer reports auth failure on Webex; intermittent since last change window.,resolved,6
+T00300,2025-11-26,NX-OS,DNS resolution,medium,Customer reports dns resolution on NX-OS; intermittent since last change window.,pending,
+T00301,2025-09-03,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,8
+T00302,2025-01-19,ASA,BGP peering,high,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,6
+T00303,2025-06-08,Meraki,CPU spike,high,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,1
+T00304,2025-11-28,NX-OS,Interface flapping,high,Customer reports interface flapping on NX-OS; intermittent since last change window.,open,
+T00305,2025-12-02,ASA,BGP peering,high,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,7
+T00306,2025-08-14,UCS,Interface flapping,low,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,6
+T00307,2025-09-23,ASA,DNS resolution,high,Customer reports dns resolution on ASA; intermittent since last change window.,open,
+T00308,2025-11-05,NX-OS,Memory leak,low,Customer reports memory leak on NX-OS; intermittent since last change window.,open,
+T00309,2025-12-05,ASA,Interface flapping,medium,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,12
+T00310,2025-08-16,ASA,CPU spike,high,Customer reports cpu spike on ASA; intermittent since last change window.,pending,
+T00311,2025-11-11,UCS,BGP peering,critical,Customer reports bgp peering on UCS; intermittent since last change window.,pending,
+T00312,2025-02-08,Webex,License activation,low,Customer reports license activation on Webex; intermittent since last change window.,resolved,11
+T00313,2025-03-23,IOS-XE,VPN tunnel drop,medium,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,1
+T00314,2025-03-06,IOS-XE,BGP peering,medium,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,10
+T00315,2025-01-17,Meraki,BGP peering,medium,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,8
+T00316,2025-02-09,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,5
+T00317,2025-05-08,IOS-XE,VPN tunnel drop,low,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,9
+T00318,2025-03-02,ASA,Auth failure,high,Customer reports auth failure on ASA; intermittent since last change window.,resolved,10
+T00319,2025-05-27,Webex,Config sync,medium,Customer reports config sync on Webex; intermittent since last change window.,open,
+T00320,2025-02-07,UCS,BGP peering,high,Customer reports bgp peering on UCS; intermittent since last change window.,pending,
+T00321,2025-12-16,ASA,Firmware upgrade,high,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,5
+T00322,2025-06-03,NX-OS,Firmware upgrade,critical,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,13
+T00323,2025-07-05,Meraki,BGP peering,critical,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,4
+T00324,2025-09-10,IOS-XE,Interface flapping,medium,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,9
+T00325,2025-03-08,Meraki,Packet loss,low,Customer reports packet loss on Meraki; intermittent since last change window.,resolved,12
+T00326,2025-09-03,Meraki,CPU spike,medium,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,3
+T00327,2025-06-12,Webex,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,3
+T00328,2025-10-10,Webex,License activation,high,Customer reports license activation on Webex; intermittent since last change window.,open,
+T00329,2025-09-15,IOS-XE,DNS resolution,medium,Customer reports dns resolution on IOS-XE; intermittent since last change window.,resolved,3
+T00330,2025-06-15,Webex,BGP peering,critical,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,5
+T00331,2025-02-10,ASA,BGP peering,critical,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,11
+T00332,2025-06-05,Meraki,Memory leak,medium,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,10
+T00333,2025-03-20,NX-OS,Firmware upgrade,high,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,14
+T00334,2025-10-16,IOS-XE,DNS resolution,low,Customer reports dns resolution on IOS-XE; intermittent since last change window.,open,
+T00335,2025-11-25,Meraki,BGP peering,low,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,10
+T00336,2025-11-24,IOS-XE,Memory leak,medium,Customer reports memory leak on IOS-XE; intermittent since last change window.,resolved,5
+T00337,2025-09-05,NX-OS,DNS resolution,medium,Customer reports dns resolution on NX-OS; intermittent since last change window.,resolved,2
+T00338,2025-12-19,IOS-XE,BGP peering,medium,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,6
+T00339,2025-11-07,NX-OS,Interface flapping,high,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,14
+T00340,2025-06-26,UCS,VPN tunnel drop,low,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,6
+T00341,2025-05-04,UCS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,open,
+T00342,2025-01-26,ASA,Config sync,high,Customer reports config sync on ASA; intermittent since last change window.,resolved,14
+T00343,2025-03-23,ASA,Config sync,high,Customer reports config sync on ASA; intermittent since last change window.,resolved,3
+T00344,2025-09-13,Meraki,CPU spike,high,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,2
+T00345,2025-07-21,Meraki,CPU spike,low,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,1
+T00346,2025-01-26,ASA,Memory leak,high,Customer reports memory leak on ASA; intermittent since last change window.,resolved,8
+T00347,2025-05-27,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00348,2025-05-16,Webex,Interface flapping,medium,Customer reports interface flapping on Webex; intermittent since last change window.,open,
+T00349,2025-01-27,Meraki,Memory leak,low,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,7
+T00350,2025-09-16,UCS,Auth failure,low,Customer reports auth failure on UCS; intermittent since last change window.,pending,
+T00351,2025-12-15,Meraki,VPN tunnel drop,critical,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,13
+T00352,2025-06-23,Meraki,Config sync,high,Customer reports config sync on Meraki; intermittent since last change window.,resolved,9
+T00353,2025-07-25,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,13
+T00354,2025-08-31,Meraki,CPU spike,medium,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,6
+T00355,2025-11-10,ASA,BGP peering,critical,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,5
+T00356,2025-10-31,ASA,Memory leak,medium,Customer reports memory leak on ASA; intermittent since last change window.,resolved,10
+T00357,2025-06-03,UCS,DNS resolution,low,Customer reports dns resolution on UCS; intermittent since last change window.,resolved,7
+T00358,2025-10-26,ASA,Auth failure,high,Customer reports auth failure on ASA; intermittent since last change window.,resolved,1
+T00359,2025-11-02,UCS,BGP peering,medium,Customer reports bgp peering on UCS; intermittent since last change window.,pending,
+T00360,2025-10-24,Meraki,BGP peering,low,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,9
+T00361,2025-11-19,Webex,License activation,high,Customer reports license activation on Webex; intermittent since last change window.,open,
+T00362,2025-12-15,NX-OS,VPN tunnel drop,critical,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,open,
+T00363,2025-01-10,UCS,Interface flapping,low,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,7
+T00364,2025-09-14,Meraki,Config sync,high,Customer reports config sync on Meraki; intermittent since last change window.,resolved,1
+T00365,2025-12-28,NX-OS,Memory leak,medium,Customer reports memory leak on NX-OS; intermittent since last change window.,pending,
+T00366,2025-09-02,Meraki,Interface flapping,critical,Customer reports interface flapping on Meraki; intermittent since last change window.,resolved,9
+T00367,2025-06-25,Meraki,Interface flapping,high,Customer reports interface flapping on Meraki; intermittent since last change window.,resolved,11
+T00368,2025-12-21,ASA,License activation,low,Customer reports license activation on ASA; intermittent since last change window.,resolved,9
+T00369,2025-06-02,NX-OS,Config sync,critical,Customer reports config sync on NX-OS; intermittent since last change window.,resolved,12
+T00370,2025-04-17,Webex,Firmware upgrade,low,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,13
+T00371,2025-05-21,ASA,VPN tunnel drop,medium,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,7
+T00372,2025-06-26,NX-OS,Interface flapping,low,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,6
+T00373,2025-08-15,Webex,BGP peering,medium,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,9
+T00374,2025-05-19,Meraki,Firmware upgrade,low,Customer reports firmware upgrade on Meraki; intermittent since last change window.,resolved,10
+T00375,2025-05-03,NX-OS,VPN tunnel drop,critical,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,4
+T00376,2025-01-27,IOS-XE,CPU spike,high,Customer reports cpu spike on IOS-XE; intermittent since last change window.,open,
+T00377,2025-03-12,IOS-XE,HA failover,critical,Customer reports ha failover on IOS-XE; intermittent since last change window.,resolved,11
+T00378,2025-09-01,UCS,License activation,high,Customer reports license activation on UCS; intermittent since last change window.,resolved,5
+T00379,2025-11-27,IOS-XE,Packet loss,low,Customer reports packet loss on IOS-XE; intermittent since last change window.,resolved,9
+T00380,2025-01-20,NX-OS,CPU spike,high,Customer reports cpu spike on NX-OS; intermittent since last change window.,pending,
+T00381,2025-01-19,UCS,Auth failure,low,Customer reports auth failure on UCS; intermittent since last change window.,resolved,14
+T00382,2025-05-29,IOS-XE,VPN tunnel drop,medium,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,open,
+T00383,2025-06-21,ASA,CPU spike,medium,Customer reports cpu spike on ASA; intermittent since last change window.,resolved,3
+T00384,2025-09-16,UCS,BGP peering,high,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,12
+T00385,2025-08-23,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,13
+T00386,2025-06-01,Meraki,Firmware upgrade,low,Customer reports firmware upgrade on Meraki; intermittent since last change window.,resolved,11
+T00387,2025-07-27,UCS,Memory leak,low,Customer reports memory leak on UCS; intermittent since last change window.,resolved,3
+T00388,2025-03-13,UCS,Interface flapping,low,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,4
+T00389,2025-08-17,ASA,Config sync,low,Customer reports config sync on ASA; intermittent since last change window.,resolved,1
+T00390,2025-05-14,Webex,Interface flapping,low,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,8
+T00391,2025-06-07,NX-OS,CPU spike,medium,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,12
+T00392,2025-06-09,Webex,VPN tunnel drop,critical,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,10
+T00393,2025-04-24,NX-OS,Config sync,medium,Customer reports config sync on NX-OS; intermittent since last change window.,resolved,10
+T00394,2025-07-11,UCS,Firmware upgrade,critical,Customer reports firmware upgrade on UCS; intermittent since last change window.,resolved,13
+T00395,2025-12-07,NX-OS,Auth failure,medium,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,13
+T00396,2025-02-11,Meraki,CPU spike,high,Customer reports cpu spike on Meraki; intermittent since last change window.,open,
+T00397,2025-10-16,IOS-XE,VPN tunnel drop,medium,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,10
+T00398,2025-10-02,NX-OS,BGP peering,high,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,11
+T00399,2025-04-16,Webex,License activation,low,Customer reports license activation on Webex; intermittent since last change window.,resolved,13
+T00400,2025-01-29,UCS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,9
+T00401,2025-08-25,Webex,DNS resolution,high,Customer reports dns resolution on Webex; intermittent since last change window.,resolved,14
+T00402,2025-01-02,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,12
+T00403,2025-02-02,Meraki,HA failover,critical,Customer reports ha failover on Meraki; intermittent since last change window.,open,
+T00404,2025-08-30,IOS-XE,Interface flapping,low,Customer reports interface flapping on IOS-XE; intermittent since last change window.,open,
+T00405,2025-11-25,Webex,License activation,medium,Customer reports license activation on Webex; intermittent since last change window.,pending,
+T00406,2025-07-15,UCS,Packet loss,critical,Customer reports packet loss on UCS; intermittent since last change window.,resolved,11
+T00407,2025-12-05,Meraki,VPN tunnel drop,high,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00408,2025-10-03,UCS,Memory leak,high,Customer reports memory leak on UCS; intermittent since last change window.,resolved,1
+T00409,2025-01-12,ASA,CPU spike,high,Customer reports cpu spike on ASA; intermittent since last change window.,resolved,7
+T00410,2025-04-28,NX-OS,CPU spike,low,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,12
+T00411,2025-02-27,IOS-XE,DNS resolution,medium,Customer reports dns resolution on IOS-XE; intermittent since last change window.,resolved,1
+T00412,2025-05-04,NX-OS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,11
+T00413,2025-12-27,IOS-XE,BGP peering,low,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,9
+T00414,2025-04-22,IOS-XE,VPN tunnel drop,critical,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,12
+T00415,2025-10-22,ASA,Memory leak,high,Customer reports memory leak on ASA; intermittent since last change window.,resolved,4
+T00416,2025-06-04,NX-OS,HA failover,medium,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,5
+T00417,2025-02-01,Meraki,Config sync,high,Customer reports config sync on Meraki; intermittent since last change window.,pending,
+T00418,2025-11-17,Webex,CPU spike,medium,Customer reports cpu spike on Webex; intermittent since last change window.,pending,
+T00419,2025-11-26,Webex,Interface flapping,medium,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,7
+T00420,2025-03-18,ASA,Interface flapping,high,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,14
+T00421,2025-04-26,ASA,DNS resolution,low,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,1
+T00422,2025-10-15,UCS,HA failover,medium,Customer reports ha failover on UCS; intermittent since last change window.,open,
+T00423,2025-05-05,ASA,BGP peering,medium,Customer reports bgp peering on ASA; intermittent since last change window.,pending,
+T00424,2025-07-09,IOS-XE,Memory leak,high,Customer reports memory leak on IOS-XE; intermittent since last change window.,open,
+T00425,2025-07-13,Webex,License activation,low,Customer reports license activation on Webex; intermittent since last change window.,open,
+T00426,2025-10-28,Webex,Firmware upgrade,low,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,6
+T00427,2025-06-05,IOS-XE,BGP peering,low,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,12
+T00428,2025-09-03,NX-OS,Firmware upgrade,high,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,4
+T00429,2025-10-10,ASA,Auth failure,low,Customer reports auth failure on ASA; intermittent since last change window.,resolved,6
+T00430,2025-06-07,ASA,Interface flapping,high,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,13
+T00431,2025-08-29,ASA,Config sync,low,Customer reports config sync on ASA; intermittent since last change window.,resolved,10
+T00432,2025-04-24,Webex,VPN tunnel drop,low,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,pending,
+T00433,2025-10-24,Webex,CPU spike,low,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,7
+T00434,2025-10-19,NX-OS,Memory leak,medium,Customer reports memory leak on NX-OS; intermittent since last change window.,resolved,5
+T00435,2025-09-08,Webex,License activation,medium,Customer reports license activation on Webex; intermittent since last change window.,resolved,13
+T00436,2025-06-30,NX-OS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,9
+T00437,2025-11-25,IOS-XE,Memory leak,high,Customer reports memory leak on IOS-XE; intermittent since last change window.,open,
+T00438,2025-12-09,IOS-XE,Auth failure,medium,Customer reports auth failure on IOS-XE; intermittent since last change window.,resolved,4
+T00439,2025-02-04,Webex,VPN tunnel drop,low,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,1
+T00440,2025-11-13,Webex,Firmware upgrade,medium,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,8
+T00441,2025-01-09,IOS-XE,Memory leak,medium,Customer reports memory leak on IOS-XE; intermittent since last change window.,open,
+T00442,2025-05-21,Meraki,HA failover,low,Customer reports ha failover on Meraki; intermittent since last change window.,resolved,11
+T00443,2025-08-09,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,open,
+T00444,2025-04-09,Meraki,Memory leak,high,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,7
+T00445,2025-02-10,ASA,Config sync,medium,Customer reports config sync on ASA; intermittent since last change window.,resolved,12
+T00446,2025-04-26,ASA,Firmware upgrade,high,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,14
+T00447,2025-11-29,IOS-XE,VPN tunnel drop,low,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,1
+T00448,2025-11-23,IOS-XE,Firmware upgrade,low,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,resolved,11
+T00449,2025-06-19,Meraki,HA failover,critical,Customer reports ha failover on Meraki; intermittent since last change window.,resolved,1
+T00450,2025-04-28,NX-OS,Packet loss,medium,Customer reports packet loss on NX-OS; intermittent since last change window.,resolved,5
+T00451,2025-01-24,IOS-XE,Firmware upgrade,low,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,resolved,11
+T00452,2025-01-17,NX-OS,Config sync,low,Customer reports config sync on NX-OS; intermittent since last change window.,pending,
+T00453,2025-10-28,NX-OS,Auth failure,high,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,2
+T00454,2025-06-03,NX-OS,Memory leak,medium,Customer reports memory leak on NX-OS; intermittent since last change window.,resolved,11
+T00455,2025-10-04,ASA,Interface flapping,high,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,12
+T00456,2025-02-10,Meraki,Auth failure,low,Customer reports auth failure on Meraki; intermittent since last change window.,open,
+T00457,2025-04-29,IOS-XE,Interface flapping,high,Customer reports interface flapping on IOS-XE; intermittent since last change window.,pending,
+T00458,2025-07-23,ASA,VPN tunnel drop,low,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,pending,
+T00459,2025-09-09,NX-OS,Interface flapping,critical,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,11
+T00460,2025-10-27,Webex,Interface flapping,high,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,4
+T00461,2025-02-07,IOS-XE,BGP peering,low,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,3
+T00462,2025-07-19,ASA,Interface flapping,low,Customer reports interface flapping on ASA; intermittent since last change window.,pending,
+T00463,2025-08-16,ASA,Auth failure,low,Customer reports auth failure on ASA; intermittent since last change window.,open,
+T00464,2025-08-09,UCS,Memory leak,medium,Customer reports memory leak on UCS; intermittent since last change window.,open,
+T00465,2025-02-15,ASA,Memory leak,medium,Customer reports memory leak on ASA; intermittent since last change window.,resolved,14
+T00466,2025-07-17,IOS-XE,Interface flapping,low,Customer reports interface flapping on IOS-XE; intermittent since last change window.,open,
+T00467,2025-10-14,NX-OS,Memory leak,low,Customer reports memory leak on NX-OS; intermittent since last change window.,resolved,3
+T00468,2025-05-18,ASA,BGP peering,low,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,5
+T00469,2025-08-04,ASA,CPU spike,low,Customer reports cpu spike on ASA; intermittent since last change window.,resolved,4
+T00470,2025-11-17,UCS,License activation,low,Customer reports license activation on UCS; intermittent since last change window.,open,
+T00471,2025-06-05,IOS-XE,Config sync,low,Customer reports config sync on IOS-XE; intermittent since last change window.,resolved,13
+T00472,2025-06-18,UCS,Interface flapping,high,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,10
+T00473,2025-03-11,ASA,Interface flapping,critical,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,6
+T00474,2025-04-01,UCS,HA failover,low,Customer reports ha failover on UCS; intermittent since last change window.,resolved,8
+T00475,2025-10-22,NX-OS,Interface flapping,low,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,6
+T00476,2025-02-28,Meraki,BGP peering,critical,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,13
+T00477,2025-10-09,IOS-XE,Config sync,medium,Customer reports config sync on IOS-XE; intermittent since last change window.,resolved,8
+T00478,2025-05-30,Webex,VPN tunnel drop,high,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,11
+T00479,2025-09-13,NX-OS,License activation,low,Customer reports license activation on NX-OS; intermittent since last change window.,resolved,12
+T00480,2025-08-05,UCS,VPN tunnel drop,critical,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,7
+T00481,2025-10-01,Meraki,Config sync,high,Customer reports config sync on Meraki; intermittent since last change window.,resolved,1
+T00482,2025-07-04,Webex,Packet loss,medium,Customer reports packet loss on Webex; intermittent since last change window.,resolved,2
+T00483,2025-02-25,NX-OS,License activation,low,Customer reports license activation on NX-OS; intermittent since last change window.,resolved,1
+T00484,2025-10-16,Webex,Firmware upgrade,low,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,13
+T00485,2025-08-09,IOS-XE,VPN tunnel drop,low,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,9
+T00486,2025-10-13,Meraki,Firmware upgrade,low,Customer reports firmware upgrade on Meraki; intermittent since last change window.,resolved,8
+T00487,2025-12-14,Meraki,Firmware upgrade,low,Customer reports firmware upgrade on Meraki; intermittent since last change window.,pending,
+T00488,2025-09-05,IOS-XE,Interface flapping,critical,Customer reports interface flapping on IOS-XE; intermittent since last change window.,open,
+T00489,2025-03-14,ASA,Interface flapping,medium,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,8
+T00490,2025-06-28,UCS,VPN tunnel drop,high,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,2
+T00491,2025-06-03,IOS-XE,DNS resolution,low,Customer reports dns resolution on IOS-XE; intermittent since last change window.,resolved,11
+T00492,2025-02-25,Webex,DNS resolution,critical,Customer reports dns resolution on Webex; intermittent since last change window.,resolved,9
+T00493,2025-03-31,Meraki,BGP peering,medium,Customer reports bgp peering on Meraki; intermittent since last change window.,pending,
+T00494,2025-04-29,UCS,License activation,low,Customer reports license activation on UCS; intermittent since last change window.,resolved,7
+T00495,2025-01-15,Webex,License activation,low,Customer reports license activation on Webex; intermittent since last change window.,resolved,7
+T00496,2025-01-03,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,13
+T00497,2025-02-02,Meraki,VPN tunnel drop,high,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,6
+T00498,2025-04-11,UCS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,11
+T00499,2025-06-10,Meraki,Interface flapping,low,Customer reports interface flapping on Meraki; intermittent since last change window.,open,
+T00500,2025-06-30,UCS,License activation,high,Customer reports license activation on UCS; intermittent since last change window.,resolved,5
+T00501,2025-11-11,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00502,2025-06-06,IOS-XE,BGP peering,medium,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,7
+T00503,2025-11-02,NX-OS,Memory leak,medium,Customer reports memory leak on NX-OS; intermittent since last change window.,resolved,9
+T00504,2025-12-22,Webex,Config sync,low,Customer reports config sync on Webex; intermittent since last change window.,resolved,5
+T00505,2025-03-13,NX-OS,Interface flapping,medium,Customer reports interface flapping on NX-OS; intermittent since last change window.,open,
+T00506,2025-07-03,IOS-XE,CPU spike,low,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,9
+T00507,2025-09-16,Webex,Memory leak,medium,Customer reports memory leak on Webex; intermittent since last change window.,resolved,14
+T00508,2025-08-16,UCS,BGP peering,medium,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,4
+T00509,2025-05-30,IOS-XE,BGP peering,medium,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,8
+T00510,2025-10-17,Webex,Auth failure,medium,Customer reports auth failure on Webex; intermittent since last change window.,resolved,10
+T00511,2025-02-28,ASA,Auth failure,high,Customer reports auth failure on ASA; intermittent since last change window.,resolved,14
+T00512,2025-01-22,Webex,CPU spike,low,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,12
+T00513,2025-12-01,NX-OS,Interface flapping,critical,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,6
+T00514,2025-02-14,UCS,Packet loss,low,Customer reports packet loss on UCS; intermittent since last change window.,resolved,4
+T00515,2025-10-29,Webex,Interface flapping,high,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,3
+T00516,2025-11-12,NX-OS,Auth failure,high,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,10
+T00517,2025-06-29,Meraki,Interface flapping,medium,Customer reports interface flapping on Meraki; intermittent since last change window.,resolved,12
+T00518,2025-05-30,ASA,Memory leak,critical,Customer reports memory leak on ASA; intermittent since last change window.,resolved,11
+T00519,2025-02-18,NX-OS,HA failover,high,Customer reports ha failover on NX-OS; intermittent since last change window.,pending,
+T00520,2025-05-22,Webex,VPN tunnel drop,high,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,12
+T00521,2025-06-14,NX-OS,Auth failure,medium,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,10
+T00522,2025-11-20,ASA,License activation,low,Customer reports license activation on ASA; intermittent since last change window.,open,
+T00523,2025-02-17,UCS,Memory leak,low,Customer reports memory leak on UCS; intermittent since last change window.,pending,
+T00524,2025-07-08,UCS,Config sync,low,Customer reports config sync on UCS; intermittent since last change window.,open,
+T00525,2025-02-17,Webex,HA failover,medium,Customer reports ha failover on Webex; intermittent since last change window.,resolved,14
+T00526,2025-02-02,Meraki,CPU spike,critical,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,8
+T00527,2025-05-18,ASA,DNS resolution,low,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,10
+T00528,2025-09-06,ASA,Packet loss,high,Customer reports packet loss on ASA; intermittent since last change window.,open,
+T00529,2025-11-17,UCS,VPN tunnel drop,critical,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,8
+T00530,2025-01-01,UCS,BGP peering,medium,Customer reports bgp peering on UCS; intermittent since last change window.,open,
+T00531,2025-11-29,ASA,BGP peering,critical,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,11
+T00532,2025-07-04,ASA,VPN tunnel drop,medium,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,1
+T00533,2025-07-22,Webex,Interface flapping,medium,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,11
+T00534,2025-02-16,Webex,VPN tunnel drop,low,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,open,
+T00535,2025-10-31,NX-OS,Memory leak,medium,Customer reports memory leak on NX-OS; intermittent since last change window.,open,
+T00536,2025-06-25,IOS-XE,HA failover,medium,Customer reports ha failover on IOS-XE; intermittent since last change window.,open,
+T00537,2025-02-06,NX-OS,Interface flapping,high,Customer reports interface flapping on NX-OS; intermittent since last change window.,open,
+T00538,2025-06-10,ASA,Packet loss,low,Customer reports packet loss on ASA; intermittent since last change window.,resolved,13
+T00539,2025-03-10,Webex,HA failover,low,Customer reports ha failover on Webex; intermittent since last change window.,resolved,1
+T00540,2025-11-09,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,12
+T00541,2025-03-19,UCS,License activation,medium,Customer reports license activation on UCS; intermittent since last change window.,resolved,2
+T00542,2025-03-13,IOS-XE,License activation,low,Customer reports license activation on IOS-XE; intermittent since last change window.,pending,
+T00543,2025-06-11,NX-OS,BGP peering,medium,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,10
+T00544,2025-11-04,Webex,License activation,high,Customer reports license activation on Webex; intermittent since last change window.,resolved,14
+T00545,2025-12-04,ASA,BGP peering,medium,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,7
+T00546,2025-06-01,Webex,VPN tunnel drop,high,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,pending,
+T00547,2025-09-11,UCS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,9
+T00548,2025-01-07,ASA,Config sync,low,Customer reports config sync on ASA; intermittent since last change window.,resolved,10
+T00549,2025-08-04,ASA,Memory leak,low,Customer reports memory leak on ASA; intermittent since last change window.,resolved,13
+T00550,2025-02-07,IOS-XE,License activation,low,Customer reports license activation on IOS-XE; intermittent since last change window.,resolved,1
+T00551,2025-07-23,Meraki,Interface flapping,high,Customer reports interface flapping on Meraki; intermittent since last change window.,resolved,7
+T00552,2025-12-26,UCS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,5
+T00553,2025-02-12,ASA,VPN tunnel drop,critical,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,pending,
+T00554,2025-03-21,Meraki,Interface flapping,medium,Customer reports interface flapping on Meraki; intermittent since last change window.,resolved,11
+T00555,2025-12-15,Webex,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,14
+T00556,2025-05-03,IOS-XE,BGP peering,critical,Customer reports bgp peering on IOS-XE; intermittent since last change window.,open,
+T00557,2025-11-10,Meraki,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,3
+T00558,2025-03-03,IOS-XE,Firmware upgrade,high,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,resolved,6
+T00559,2025-09-25,Meraki,Auth failure,high,Customer reports auth failure on Meraki; intermittent since last change window.,resolved,3
+T00560,2025-05-18,Webex,Packet loss,high,Customer reports packet loss on Webex; intermittent since last change window.,open,
+T00561,2025-08-08,ASA,Memory leak,low,Customer reports memory leak on ASA; intermittent since last change window.,pending,
+T00562,2025-11-18,IOS-XE,Memory leak,medium,Customer reports memory leak on IOS-XE; intermittent since last change window.,open,
+T00563,2025-10-18,NX-OS,Interface flapping,low,Customer reports interface flapping on NX-OS; intermittent since last change window.,open,
+T00564,2025-10-21,Webex,Firmware upgrade,low,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,1
+T00565,2025-01-07,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,pending,
+T00566,2025-04-02,IOS-XE,Memory leak,critical,Customer reports memory leak on IOS-XE; intermittent since last change window.,resolved,7
+T00567,2025-04-25,ASA,BGP peering,critical,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,14
+T00568,2025-02-09,Meraki,Interface flapping,medium,Customer reports interface flapping on Meraki; intermittent since last change window.,pending,
+T00569,2025-04-02,NX-OS,DNS resolution,critical,Customer reports dns resolution on NX-OS; intermittent since last change window.,pending,
+T00570,2025-02-05,UCS,Packet loss,high,Customer reports packet loss on UCS; intermittent since last change window.,resolved,2
+T00571,2025-10-11,UCS,VPN tunnel drop,low,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,5
+T00572,2025-11-15,NX-OS,CPU spike,medium,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,13
+T00573,2025-04-11,Webex,Packet loss,high,Customer reports packet loss on Webex; intermittent since last change window.,resolved,1
+T00574,2025-07-29,IOS-XE,BGP peering,low,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,1
+T00575,2025-06-21,IOS-XE,Auth failure,low,Customer reports auth failure on IOS-XE; intermittent since last change window.,resolved,5
+T00576,2025-02-23,NX-OS,Memory leak,low,Customer reports memory leak on NX-OS; intermittent since last change window.,resolved,1
+T00577,2025-03-14,Webex,Interface flapping,low,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,14
+T00578,2025-09-24,UCS,Firmware upgrade,low,Customer reports firmware upgrade on UCS; intermittent since last change window.,pending,
+T00579,2025-02-13,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,2
+T00580,2025-10-31,Meraki,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00581,2025-05-30,ASA,DNS resolution,critical,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,14
+T00582,2025-06-17,ASA,CPU spike,low,Customer reports cpu spike on ASA; intermittent since last change window.,pending,
+T00583,2025-03-11,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,6
+T00584,2025-07-28,IOS-XE,Memory leak,critical,Customer reports memory leak on IOS-XE; intermittent since last change window.,resolved,5
+T00585,2025-08-26,ASA,DNS resolution,low,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,5
+T00586,2025-12-27,Webex,License activation,low,Customer reports license activation on Webex; intermittent since last change window.,resolved,3
+T00587,2025-02-16,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,11
+T00588,2025-06-03,ASA,DNS resolution,low,Customer reports dns resolution on ASA; intermittent since last change window.,pending,
+T00589,2025-08-20,Meraki,Auth failure,low,Customer reports auth failure on Meraki; intermittent since last change window.,resolved,13
+T00590,2025-03-13,IOS-XE,VPN tunnel drop,high,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,pending,
+T00591,2025-03-08,NX-OS,DNS resolution,low,Customer reports dns resolution on NX-OS; intermittent since last change window.,resolved,11
+T00592,2025-02-13,Meraki,License activation,critical,Customer reports license activation on Meraki; intermittent since last change window.,open,
+T00593,2025-02-03,NX-OS,Packet loss,medium,Customer reports packet loss on NX-OS; intermittent since last change window.,open,
+T00594,2025-06-19,IOS-XE,VPN tunnel drop,medium,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,10
+T00595,2025-08-10,Webex,CPU spike,low,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,3
+T00596,2025-07-01,NX-OS,Packet loss,low,Customer reports packet loss on NX-OS; intermittent since last change window.,resolved,3
+T00597,2025-01-18,Meraki,License activation,low,Customer reports license activation on Meraki; intermittent since last change window.,resolved,7
+T00598,2025-10-09,UCS,VPN tunnel drop,low,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,open,
+T00599,2025-04-13,Webex,Packet loss,medium,Customer reports packet loss on Webex; intermittent since last change window.,resolved,13
+T00600,2025-10-06,IOS-XE,HA failover,high,Customer reports ha failover on IOS-XE; intermittent since last change window.,resolved,9
+T00601,2025-09-06,ASA,Config sync,medium,Customer reports config sync on ASA; intermittent since last change window.,resolved,3
+T00602,2025-01-14,ASA,License activation,low,Customer reports license activation on ASA; intermittent since last change window.,resolved,5
+T00603,2025-01-30,UCS,Memory leak,high,Customer reports memory leak on UCS; intermittent since last change window.,pending,
+T00604,2025-03-23,IOS-XE,BGP peering,low,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,13
+T00605,2025-01-29,NX-OS,Memory leak,critical,Customer reports memory leak on NX-OS; intermittent since last change window.,resolved,14
+T00606,2025-03-30,NX-OS,BGP peering,low,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,6
+T00607,2025-10-30,IOS-XE,Firmware upgrade,low,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,resolved,3
+T00608,2025-10-16,NX-OS,DNS resolution,high,Customer reports dns resolution on NX-OS; intermittent since last change window.,pending,
+T00609,2025-10-05,ASA,BGP peering,low,Customer reports bgp peering on ASA; intermittent since last change window.,open,
+T00610,2025-11-05,NX-OS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,10
+T00611,2025-04-14,NX-OS,Interface flapping,low,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,14
+T00612,2025-06-15,IOS-XE,VPN tunnel drop,medium,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,pending,
+T00613,2025-02-26,Meraki,DNS resolution,critical,Customer reports dns resolution on Meraki; intermittent since last change window.,resolved,11
+T00614,2025-07-22,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00615,2025-03-22,Webex,Config sync,high,Customer reports config sync on Webex; intermittent since last change window.,pending,
+T00616,2025-11-29,ASA,BGP peering,critical,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,10
+T00617,2025-07-02,NX-OS,Firmware upgrade,high,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,12
+T00618,2025-12-19,ASA,VPN tunnel drop,high,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,pending,
+T00619,2025-10-21,UCS,DNS resolution,high,Customer reports dns resolution on UCS; intermittent since last change window.,resolved,3
+T00620,2025-11-05,ASA,Config sync,critical,Customer reports config sync on ASA; intermittent since last change window.,resolved,10
+T00621,2025-02-23,UCS,VPN tunnel drop,high,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,6
+T00622,2025-03-27,Webex,Packet loss,low,Customer reports packet loss on Webex; intermittent since last change window.,resolved,11
+T00623,2025-06-21,UCS,VPN tunnel drop,low,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,6
+T00624,2025-05-12,IOS-XE,Firmware upgrade,low,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,resolved,7
+T00625,2025-03-27,UCS,CPU spike,low,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,2
+T00626,2025-09-03,Meraki,License activation,medium,Customer reports license activation on Meraki; intermittent since last change window.,resolved,2
+T00627,2025-01-18,ASA,VPN tunnel drop,low,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,open,
+T00628,2025-06-25,NX-OS,Packet loss,low,Customer reports packet loss on NX-OS; intermittent since last change window.,open,
+T00629,2025-02-17,ASA,License activation,medium,Customer reports license activation on ASA; intermittent since last change window.,resolved,1
+T00630,2025-08-09,Webex,BGP peering,high,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,2
+T00631,2025-06-19,NX-OS,HA failover,medium,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,12
+T00632,2025-10-04,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,open,
+T00633,2025-07-21,Meraki,Memory leak,medium,Customer reports memory leak on Meraki; intermittent since last change window.,open,
+T00634,2025-01-02,UCS,VPN tunnel drop,high,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,8
+T00635,2025-04-13,IOS-XE,VPN tunnel drop,low,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,2
+T00636,2025-08-31,IOS-XE,Interface flapping,low,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,11
+T00637,2025-05-16,IOS-XE,License activation,low,Customer reports license activation on IOS-XE; intermittent since last change window.,resolved,7
+T00638,2025-07-09,NX-OS,CPU spike,low,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,4
+T00639,2025-05-18,Meraki,VPN tunnel drop,high,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,2
+T00640,2025-12-09,ASA,DNS resolution,medium,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,4
+T00641,2025-10-11,IOS-XE,DNS resolution,high,Customer reports dns resolution on IOS-XE; intermittent since last change window.,resolved,9
+T00642,2025-12-18,UCS,Memory leak,low,Customer reports memory leak on UCS; intermittent since last change window.,resolved,7
+T00643,2025-01-18,Meraki,Memory leak,medium,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,10
+T00644,2025-03-17,IOS-XE,Config sync,medium,Customer reports config sync on IOS-XE; intermittent since last change window.,pending,
+T00645,2025-03-27,NX-OS,DNS resolution,low,Customer reports dns resolution on NX-OS; intermittent since last change window.,resolved,11
+T00646,2025-08-11,NX-OS,HA failover,medium,Customer reports ha failover on NX-OS; intermittent since last change window.,resolved,5
+T00647,2025-06-13,Webex,Config sync,low,Customer reports config sync on Webex; intermittent since last change window.,resolved,7
+T00648,2025-10-10,ASA,DNS resolution,medium,Customer reports dns resolution on ASA; intermittent since last change window.,pending,
+T00649,2025-01-07,Webex,License activation,medium,Customer reports license activation on Webex; intermittent since last change window.,resolved,7
+T00650,2025-03-18,NX-OS,Memory leak,medium,Customer reports memory leak on NX-OS; intermittent since last change window.,pending,
+T00651,2025-02-21,IOS-XE,Memory leak,low,Customer reports memory leak on IOS-XE; intermittent since last change window.,resolved,9
+T00652,2025-06-26,UCS,BGP peering,medium,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,8
+T00653,2025-01-20,NX-OS,BGP peering,low,Customer reports bgp peering on NX-OS; intermittent since last change window.,resolved,12
+T00654,2025-07-25,IOS-XE,CPU spike,high,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,1
+T00655,2025-09-01,ASA,Packet loss,low,Customer reports packet loss on ASA; intermittent since last change window.,resolved,5
+T00656,2025-06-09,ASA,DNS resolution,high,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,14
+T00657,2025-04-27,NX-OS,Interface flapping,high,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,6
+T00658,2025-05-18,Webex,CPU spike,medium,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,4
+T00659,2025-07-28,Webex,CPU spike,medium,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,1
+T00660,2025-09-21,NX-OS,VPN tunnel drop,high,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,13
+T00661,2025-09-26,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,14
+T00662,2025-01-30,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,4
+T00663,2025-05-21,ASA,DNS resolution,medium,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,2
+T00664,2025-12-15,IOS-XE,BGP peering,medium,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,14
+T00665,2025-08-31,Meraki,Memory leak,low,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,5
+T00666,2025-12-19,IOS-XE,Interface flapping,low,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,10
+T00667,2025-04-20,NX-OS,License activation,medium,Customer reports license activation on NX-OS; intermittent since last change window.,resolved,7
+T00668,2025-09-20,IOS-XE,Packet loss,critical,Customer reports packet loss on IOS-XE; intermittent since last change window.,resolved,8
+T00669,2025-03-09,Webex,BGP peering,high,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,10
+T00670,2025-06-06,Webex,HA failover,medium,Customer reports ha failover on Webex; intermittent since last change window.,resolved,7
+T00671,2025-06-28,UCS,BGP peering,medium,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,14
+T00672,2025-11-16,UCS,License activation,low,Customer reports license activation on UCS; intermittent since last change window.,pending,
+T00673,2025-07-11,Meraki,License activation,medium,Customer reports license activation on Meraki; intermittent since last change window.,resolved,2
+T00674,2025-09-04,IOS-XE,Interface flapping,low,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,5
+T00675,2025-05-14,Webex,Firmware upgrade,high,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,3
+T00676,2025-09-22,NX-OS,Packet loss,high,Customer reports packet loss on NX-OS; intermittent since last change window.,resolved,10
+T00677,2025-07-26,Webex,Interface flapping,low,Customer reports interface flapping on Webex; intermittent since last change window.,open,
+T00678,2025-09-12,ASA,BGP peering,medium,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,1
+T00679,2025-10-26,Webex,HA failover,high,Customer reports ha failover on Webex; intermittent since last change window.,resolved,12
+T00680,2025-04-24,Webex,Memory leak,high,Customer reports memory leak on Webex; intermittent since last change window.,pending,
+T00681,2025-12-10,ASA,Memory leak,high,Customer reports memory leak on ASA; intermittent since last change window.,resolved,9
+T00682,2025-04-03,ASA,VPN tunnel drop,low,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,13
+T00683,2025-10-14,NX-OS,Config sync,high,Customer reports config sync on NX-OS; intermittent since last change window.,resolved,4
+T00684,2025-07-01,NX-OS,Auth failure,low,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,6
+T00685,2025-07-10,ASA,License activation,medium,Customer reports license activation on ASA; intermittent since last change window.,open,
+T00686,2025-01-28,Webex,License activation,critical,Customer reports license activation on Webex; intermittent since last change window.,open,
+T00687,2025-04-10,Meraki,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,7
+T00688,2025-01-28,NX-OS,VPN tunnel drop,low,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,resolved,10
+T00689,2025-08-23,NX-OS,Interface flapping,high,Customer reports interface flapping on NX-OS; intermittent since last change window.,resolved,8
+T00690,2025-06-20,Webex,HA failover,low,Customer reports ha failover on Webex; intermittent since last change window.,open,
+T00691,2025-08-20,ASA,BGP peering,high,Customer reports bgp peering on ASA; intermittent since last change window.,resolved,3
+T00692,2025-09-08,IOS-XE,VPN tunnel drop,medium,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,7
+T00693,2025-09-02,UCS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,1
+T00694,2025-06-14,Meraki,BGP peering,medium,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,4
+T00695,2025-04-26,Webex,Packet loss,low,Customer reports packet loss on Webex; intermittent since last change window.,open,
+T00696,2025-09-15,Meraki,Interface flapping,low,Customer reports interface flapping on Meraki; intermittent since last change window.,open,
+T00697,2025-05-29,UCS,Firmware upgrade,medium,Customer reports firmware upgrade on UCS; intermittent since last change window.,resolved,11
+T00698,2025-03-10,ASA,HA failover,medium,Customer reports ha failover on ASA; intermittent since last change window.,resolved,3
+T00699,2025-07-26,IOS-XE,BGP peering,high,Customer reports bgp peering on IOS-XE; intermittent since last change window.,open,
+T00700,2025-01-12,Meraki,Memory leak,low,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,13
+T00701,2025-01-20,UCS,Packet loss,low,Customer reports packet loss on UCS; intermittent since last change window.,resolved,1
+T00702,2025-11-01,IOS-XE,Firmware upgrade,medium,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,open,
+T00703,2025-12-20,IOS-XE,CPU spike,low,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,8
+T00704,2025-12-26,NX-OS,BGP peering,medium,Customer reports bgp peering on NX-OS; intermittent since last change window.,open,
+T00705,2025-08-04,Webex,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,resolved,12
+T00706,2025-03-12,UCS,DNS resolution,low,Customer reports dns resolution on UCS; intermittent since last change window.,resolved,2
+T00707,2025-05-25,IOS-XE,Auth failure,medium,Customer reports auth failure on IOS-XE; intermittent since last change window.,resolved,13
+T00708,2025-05-15,Meraki,HA failover,low,Customer reports ha failover on Meraki; intermittent since last change window.,resolved,3
+T00709,2025-01-21,Meraki,Memory leak,low,Customer reports memory leak on Meraki; intermittent since last change window.,pending,
+T00710,2025-06-19,NX-OS,VPN tunnel drop,medium,Customer reports vpn tunnel drop on NX-OS; intermittent since last change window.,pending,
+T00711,2025-10-21,Webex,Memory leak,critical,Customer reports memory leak on Webex; intermittent since last change window.,resolved,2
+T00712,2025-02-21,ASA,License activation,medium,Customer reports license activation on ASA; intermittent since last change window.,pending,
+T00713,2025-05-16,UCS,VPN tunnel drop,high,Customer reports vpn tunnel drop on UCS; intermittent since last change window.,resolved,14
+T00714,2025-05-29,ASA,DNS resolution,low,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,2
+T00715,2025-01-24,IOS-XE,DNS resolution,medium,Customer reports dns resolution on IOS-XE; intermittent since last change window.,resolved,6
+T00716,2025-08-13,Meraki,BGP peering,high,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,6
+T00717,2025-04-04,IOS-XE,CPU spike,critical,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,7
+T00718,2025-12-20,UCS,DNS resolution,medium,Customer reports dns resolution on UCS; intermittent since last change window.,resolved,2
+T00719,2025-03-09,Webex,Firmware upgrade,critical,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,2
+T00720,2025-08-02,Meraki,CPU spike,medium,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,10
+T00721,2025-07-14,ASA,License activation,high,Customer reports license activation on ASA; intermittent since last change window.,resolved,12
+T00722,2025-03-08,UCS,Config sync,low,Customer reports config sync on UCS; intermittent since last change window.,resolved,1
+T00723,2025-02-02,ASA,License activation,low,Customer reports license activation on ASA; intermittent since last change window.,resolved,9
+T00724,2025-10-23,Webex,Memory leak,critical,Customer reports memory leak on Webex; intermittent since last change window.,resolved,6
+T00725,2025-09-23,Meraki,Firmware upgrade,medium,Customer reports firmware upgrade on Meraki; intermittent since last change window.,resolved,12
+T00726,2025-05-08,UCS,Interface flapping,medium,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,14
+T00727,2025-10-13,Meraki,VPN tunnel drop,medium,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,14
+T00728,2025-08-29,UCS,Packet loss,low,Customer reports packet loss on UCS; intermittent since last change window.,resolved,4
+T00729,2025-06-19,ASA,VPN tunnel drop,low,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,7
+T00730,2025-05-01,IOS-XE,CPU spike,high,Customer reports cpu spike on IOS-XE; intermittent since last change window.,resolved,14
+T00731,2025-09-13,UCS,Interface flapping,critical,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,1
+T00732,2025-02-22,UCS,CPU spike,medium,Customer reports cpu spike on UCS; intermittent since last change window.,open,
+T00733,2025-02-16,Meraki,HA failover,medium,Customer reports ha failover on Meraki; intermittent since last change window.,resolved,9
+T00734,2025-04-16,Webex,Firmware upgrade,critical,Customer reports firmware upgrade on Webex; intermittent since last change window.,resolved,1
+T00735,2025-04-25,UCS,Interface flapping,high,Customer reports interface flapping on UCS; intermittent since last change window.,resolved,12
+T00736,2025-12-03,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,4
+T00737,2025-01-02,ASA,Interface flapping,medium,Customer reports interface flapping on ASA; intermittent since last change window.,resolved,9
+T00738,2025-09-25,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,3
+T00739,2025-07-29,IOS-XE,BGP peering,low,Customer reports bgp peering on IOS-XE; intermittent since last change window.,open,
+T00740,2025-07-21,NX-OS,CPU spike,high,Customer reports cpu spike on NX-OS; intermittent since last change window.,resolved,2
+T00741,2025-08-01,IOS-XE,Config sync,high,Customer reports config sync on IOS-XE; intermittent since last change window.,resolved,13
+T00742,2025-08-19,UCS,Firmware upgrade,critical,Customer reports firmware upgrade on UCS; intermittent since last change window.,open,
+T00743,2025-09-13,IOS-XE,Memory leak,low,Customer reports memory leak on IOS-XE; intermittent since last change window.,pending,
+T00744,2025-10-27,UCS,Config sync,high,Customer reports config sync on UCS; intermittent since last change window.,pending,
+T00745,2025-12-21,Meraki,BGP peering,high,Customer reports bgp peering on Meraki; intermittent since last change window.,open,
+T00746,2025-12-03,Meraki,License activation,low,Customer reports license activation on Meraki; intermittent since last change window.,resolved,7
+T00747,2025-11-08,Webex,Auth failure,low,Customer reports auth failure on Webex; intermittent since last change window.,pending,
+T00748,2025-05-31,UCS,DNS resolution,low,Customer reports dns resolution on UCS; intermittent since last change window.,resolved,12
+T00749,2025-09-20,ASA,DNS resolution,medium,Customer reports dns resolution on ASA; intermittent since last change window.,resolved,12
+T00750,2025-10-11,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,resolved,11
+T00751,2025-06-26,Webex,VPN tunnel drop,high,Customer reports vpn tunnel drop on Webex; intermittent since last change window.,pending,
+T00752,2025-04-02,Meraki,Memory leak,medium,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,13
+T00753,2025-06-30,Meraki,CPU spike,medium,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,7
+T00754,2025-12-12,Webex,Packet loss,medium,Customer reports packet loss on Webex; intermittent since last change window.,resolved,7
+T00755,2025-01-07,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,open,
+T00756,2025-01-29,NX-OS,BGP peering,high,Customer reports bgp peering on NX-OS; intermittent since last change window.,pending,
+T00757,2025-12-16,ASA,VPN tunnel drop,low,Customer reports vpn tunnel drop on ASA; intermittent since last change window.,resolved,4
+T00758,2025-10-05,IOS-XE,Interface flapping,medium,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,11
+T00759,2025-10-15,NX-OS,Auth failure,medium,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,13
+T00760,2025-12-23,ASA,Firmware upgrade,low,Customer reports firmware upgrade on ASA; intermittent since last change window.,resolved,7
+T00761,2025-12-17,ASA,HA failover,low,Customer reports ha failover on ASA; intermittent since last change window.,resolved,4
+T00762,2025-11-14,UCS,DNS resolution,critical,Customer reports dns resolution on UCS; intermittent since last change window.,resolved,11
+T00763,2025-07-08,Meraki,Memory leak,medium,Customer reports memory leak on Meraki; intermittent since last change window.,resolved,4
+T00764,2025-05-31,UCS,BGP peering,medium,Customer reports bgp peering on UCS; intermittent since last change window.,resolved,3
+T00765,2025-09-21,IOS-XE,Interface flapping,medium,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,3
+T00766,2025-03-24,Meraki,DNS resolution,low,Customer reports dns resolution on Meraki; intermittent since last change window.,resolved,3
+T00767,2025-01-21,NX-OS,Config sync,medium,Customer reports config sync on NX-OS; intermittent since last change window.,resolved,11
+T00768,2025-11-12,Webex,Interface flapping,high,Customer reports interface flapping on Webex; intermittent since last change window.,resolved,2
+T00769,2025-12-29,ASA,Memory leak,critical,Customer reports memory leak on ASA; intermittent since last change window.,resolved,13
+T00770,2025-09-16,NX-OS,CPU spike,medium,Customer reports cpu spike on NX-OS; intermittent since last change window.,open,
+T00771,2025-04-24,NX-OS,Firmware upgrade,low,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,13
+T00772,2025-11-13,Meraki,CPU spike,medium,Customer reports cpu spike on Meraki; intermittent since last change window.,resolved,11
+T00773,2025-01-05,IOS-XE,Firmware upgrade,medium,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,pending,
+T00774,2025-11-11,Meraki,BGP peering,low,Customer reports bgp peering on Meraki; intermittent since last change window.,resolved,7
+T00775,2025-02-28,UCS,BGP peering,high,Customer reports bgp peering on UCS; intermittent since last change window.,open,
+T00776,2025-09-22,ASA,Memory leak,medium,Customer reports memory leak on ASA; intermittent since last change window.,resolved,5
+T00777,2025-11-30,NX-OS,Interface flapping,low,Customer reports interface flapping on NX-OS; intermittent since last change window.,open,
+T00778,2025-10-03,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,13
+T00779,2025-04-20,Webex,CPU spike,low,Customer reports cpu spike on Webex; intermittent since last change window.,resolved,12
+T00780,2025-08-11,Webex,DNS resolution,low,Customer reports dns resolution on Webex; intermittent since last change window.,resolved,1
+T00781,2025-08-24,Webex,Interface flapping,low,Customer reports interface flapping on Webex; intermittent since last change window.,open,
+T00782,2025-05-09,Meraki,VPN tunnel drop,high,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,pending,
+T00783,2025-07-28,UCS,CPU spike,medium,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,7
+T00784,2025-12-11,IOS-XE,Memory leak,medium,Customer reports memory leak on IOS-XE; intermittent since last change window.,resolved,13
+T00785,2025-10-27,IOS-XE,Firmware upgrade,low,Customer reports firmware upgrade on IOS-XE; intermittent since last change window.,pending,
+T00786,2025-02-24,ASA,Auth failure,low,Customer reports auth failure on ASA; intermittent since last change window.,open,
+T00787,2025-08-13,UCS,CPU spike,medium,Customer reports cpu spike on UCS; intermittent since last change window.,resolved,9
+T00788,2025-04-23,NX-OS,Auth failure,high,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,5
+T00789,2025-11-21,NX-OS,Interface flapping,high,Customer reports interface flapping on NX-OS; intermittent since last change window.,pending,
+T00790,2025-11-28,ASA,Config sync,low,Customer reports config sync on ASA; intermittent since last change window.,resolved,3
+T00791,2025-03-05,IOS-XE,VPN tunnel drop,medium,Customer reports vpn tunnel drop on IOS-XE; intermittent since last change window.,resolved,2
+T00792,2025-06-06,NX-OS,Auth failure,critical,Customer reports auth failure on NX-OS; intermittent since last change window.,resolved,7
+T00793,2025-11-27,Meraki,VPN tunnel drop,low,Customer reports vpn tunnel drop on Meraki; intermittent since last change window.,resolved,5
+T00794,2025-04-10,IOS-XE,BGP peering,high,Customer reports bgp peering on IOS-XE; intermittent since last change window.,resolved,14
+T00795,2025-10-09,UCS,License activation,low,Customer reports license activation on UCS; intermittent since last change window.,resolved,5
+T00796,2025-02-20,NX-OS,Firmware upgrade,medium,Customer reports firmware upgrade on NX-OS; intermittent since last change window.,resolved,3
+T00797,2025-12-10,Webex,BGP peering,low,Customer reports bgp peering on Webex; intermittent since last change window.,open,
+T00798,2025-04-10,ASA,CPU spike,low,Customer reports cpu spike on ASA; intermittent since last change window.,resolved,12
+T00799,2025-10-27,NX-OS,Memory leak,low,Customer reports memory leak on NX-OS; intermittent since last change window.,resolved,7
+T00800,2025-03-28,IOS-XE,Interface flapping,high,Customer reports interface flapping on IOS-XE; intermittent since last change window.,resolved,11

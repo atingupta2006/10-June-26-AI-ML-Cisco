@@ -1,0 +1,19 @@
+# Runbook snippets for RAG labs (synthetic)
+
+## VPN tunnel drop (IOS-XE)
+Verify IKE phase 1/2, check peer reachability, compare crypto map. Clear SA with clear crypto sa if policy allows.
+
+## BGP peering (NX-OS)
+Check neighbor state, AS number, prefix limits. Review last notification and hold-timer.
+
+## Interface flapping
+Collect show interface counters; look for physical vs err-disabled; check STP topology changes.
+
+## E-404 router error
+Often config drift on interface VLAN. Compare running vs golden config; rollback last change.
+
+## Security alert port_scan
+Isolate source VLAN, enable ACL deny, open SOC ticket with five-tuple and timeframe.
+
+## UCS HA failover
+Validate fabric interconnect heartbeat; confirm service profile placement; check SAN connectivity.

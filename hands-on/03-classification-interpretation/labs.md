@@ -1,254 +1,41 @@
-# Day 03 — Labs
+# Day 03 — Ticket Analysis & Prompts — Labs
 
 Kernel: **Python (cisco-aiml-lab)** · Run `notebooks/lab01` … `lab06` in order.
 
----
+Data: `data/support-ops/`
 
-## Quick checks
-
-| Lab | You should have |
-|-----------|--------|
-| Lab 1 | `rows` = **1000**; P(default) ≈ **0.49** |
-| Lab 2 | Train **800** / test **200**; sample predictions mix 0 and 1 |
-| Lab 3 | Accuracy ≈ **0.59**; F1 ≈ **0.57** |
-| Lab 4 | AUC ≈ **0.63**; `roc_curve.png` saved |
-| Lab 5 | Pipeline steps `preprocess`, `clf`; accuracy ≈ **0.64** |
-| Lab 6 | SHAP shape **(20, 5)**; top driver **int_rate** |
-
-
-## Lab pacing
-
-| Lab | Est. time |
-|-----|-----------|
-| Lab 1 | ~50 min |
-| Lab 2 | ~55 min |
-| Lab 3 | ~50 min |
-| Lab 4 | ~45 min |
-| Lab 5 | ~50 min |
-| Lab 6 | ~55 min |
-| **Total** | **~305 min** |
-
----
-
-# Lab 1 — Probability exercises
-
-## Objective
-
-Connect observed default rates to probability, odds, and log-odds (logit) — the foundation of logistic regression.
-
-**Time:** ~50 min
-
-## Flow
-
-```text
-  load loans → P(default) → odds → log-odds → worked example
-```
-
-## Tasks
-
-1. Open `notebooks/lab01_probability_exercises.ipynb` (recommended) or `lab01_probability_exercises.py`.
-2. Run all cells; note `P(default)` from the **1,000**-row sample.
-3. Complete the manual odds check and inverse-logit cells.
-4. Answer reflection questions linking log-odds to Lab 2 logistic regression.
-
-## Numbers to compare
-
-```text
-rows: 1000
-P(default): 0.4850
-odds of default: 0.9417
-log-odds (logit): -0.0600
-```
+# Lab 1 — Top features
 
 ## Done when
 
-* Script runs without errors.
-* `rows` = **1000**.
-* You can define probability, odds, and log-odds in your own words.
+- Top 10 features chart
 
----
-
-# Lab 2 — Logistic regression
-
-## Objective
-
-Fit logistic regression to predict loan default from numeric borrower features.
-
-**Time:** ~55 min
-
-## Flow
-
-```text
-  features + target → train/test split → LogisticRegression.fit → probabilities
-```
-
-## Tasks
-
-1. Open `notebooks/lab02_logistic_regression.ipynb` (recommended) or `lab02_logistic_regression.py`.
-2. Fit the model; inspect positive coefficients for `int_rate` and `dti`.
-3. Compare `predict_proba` vs `predict` in the comparison table (first 3 test rows).
-4. Complete the manual log-odds cell and relate it to the sigmoid plot.
-
-## Numbers to compare
-
-```text
-train size: 800, test size: 200
-coefficients: int_rate positive, dti positive
-sample P(default): [0.685  0.355  0.5472]
-sample predictions: [1, 0, 1]
-```
+# Lab 2 — Bug trend by product
 
 ## Done when
 
-* Model trains on **800** rows and evaluates on **200**.
-* Five numeric features used; intercept and coefficients printed.
-* At least one sample prediction is **1** (default).
+- Weekly multi-product line chart
 
----
-
-# Lab 3 — Confusion matrix
-
-## Objective
-
-Evaluate classifier performance with confusion matrix, accuracy, precision, recall, and F1.
-
-**Time:** ~50 min
-
-## Flow
-
-```text
-  predict test set → confusion_matrix → precision / recall / F1
-```
-
-## Tasks
-
-1. Open `notebooks/lab03_confusion_matrix.ipynb` (recommended) or `lab03_confusion_matrix.py`.
-2. Read the heatmap and label TN, FP, FN, TP.
-3. Record accuracy, precision, recall, and F1.
-4. Review the threshold table (0.3–0.7) and discuss precision vs recall at **0.4** vs **0.5**.
-
-## Numbers to compare
-
-```text
-confusion matrix:
-[[63 40]
- [42 55]]
-accuracy: 0.5900
-F1: 0.5729
-```
+# Lab 3 — Prompt extract
 
 ## Done when
 
-* Confusion matrix is 2×2 with non-zero entries in all cells.
-* Accuracy, precision, recall, and F1 are printed.
-* You can map each matrix cell to a metric definition.
+- Prompt template printed for ticket JSON
 
----
-
-# Lab 4 — ROC and AUC
-
-## Objective
-
-Plot the ROC curve and compute area under the curve (AUC) for ranking ability across thresholds.
-
-**Time:** ~45 min
-
-## Flow
-
-```text
-  predict_proba → roc_curve → auc → save plot
-```
-
-## Tasks
-
-1. Open `notebooks/lab04_roc_auc.ipynb` (recommended) or `lab04_roc_auc.py`.
-2. Run all cells; confirm `output/roc_curve.png` is saved.
-3. Compare AUC (~**0.63**) to **0.5** random baseline.
-4. Review the Youden's J point — threshold where TPR − FPR is largest.
-
-## Numbers to compare
-
-```text
-AUC: 0.6326
-plot saved: roc_curve.png
-```
+# Lab 4 — HF summarize ticket
 
 ## Done when
 
-* `output/roc_curve.png` is created.
-* AUC printed and **> 0.5**.
-* You can explain what the diagonal dashed line represents.
+- Summarization output for one ticket
 
----
-
-# Lab 5 — sklearn Pipeline
-
-## Objective
-
-Build an end-to-end `Pipeline` with `ColumnTransformer` for scaling numeric columns and one-hot encoding categoricals.
-
-**Time:** ~50 min
-
-## Flow
-
-```text
-  ColumnTransformer → Pipeline(preprocess + clf) → fit → predict
-```
-
-## Tasks
-
-1. Open `notebooks/lab05_sklearn_pipeline.ipynb` (recommended) or `lab05_sklearn_pipeline.py`.
-2. Run all cells and list pipeline step names.
-3. Inspect which columns are numeric vs categorical in `_data.py`.
-4. Compare full pipeline accuracy to the numeric-only baseline in the notebook extension.
-
-## Numbers to compare
-
-```text
-pipeline steps: ['preprocess', 'clf']
-test accuracy: 0.6350
-```
+# Lab 5 — Prompt compare
 
 ## Done when
 
-* Pipeline has **two** named steps: `preprocess` and `clf`.
-* Test accuracy printed (expect ≈ **0.64**).
-* You can explain why preprocessing belongs inside the pipeline.
+- Bad vs good prompt side by side
 
----
-
-# Lab 6 — SHAP interpretability
-
-## Objective
-
-Use SHAP values to explain which features drive individual default predictions.
-
-**Time:** ~55 min
-
-## Flow
-
-```text
-  scale features → fit logistic model → SHAP Explainer → mean |SHAP| ranking
-```
-
-## Tasks
-
-1. Open `notebooks/lab06_shap_interpretability.ipynb` (recommended) or `lab06_shap_interpretability.py`.
-2. Run all cells; note the feature with highest mean |SHAP|.
-3. Discuss why `int_rate` often ranks highly for credit risk.
-4. Inspect the SHAP bar and waterfall plots saved to `output/`.
-
-## Numbers to compare
-
-```text
-SHAP values shape: (20, 5)
-top driver (mean |SHAP|): int_rate
-```
+# Lab 6 — Feature priority
 
 ## Done when
 
-* SHAP values shape is **(20, 5)** for 20 test rows and 5 features.
-* Mean |SHAP| printed per feature.
-* You can explain SHAP as a per-prediction feature attribution method.
-
----
+- Top 3 features listed
