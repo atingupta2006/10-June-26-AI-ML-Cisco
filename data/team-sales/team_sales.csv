@@ -1,21 +1,101 @@
-team,region,q1_sales,q2_sales
-Team_01,North,142,158
-Team_02,South,118,112
-Team_03,East,165,189
-Team_04,West,98,121
-Team_05,North,176,171
-Team_06,South,134,148
-Team_07,East,109,115
-Team_08,West,187,201
-Team_09,North,121,130
-Team_10,South,156,149
-Team_11,East,143,167
-Team_12,West,111,108
-Team_13,North,199,210
-Team_14,South,102,118
-Team_15,East,174,182
-Team_16,West,128,141
-Team_17,North,115,109
-Team_18,South,188,195
-Team_19,East,97,104
-Team_20,West,162,178
+team,team_name,region,state,product_line,sub_category,segment,q1_sales,q2_sales,q1_units,q2_units
+TS001,Chicago - Chairs,Central,Illinois,Furniture,Chairs,Home Office,934,1252,7,15
+TS002,Chicago - Chairs,Central,Illinois,Furniture,Chairs,Consumer,528,859,5,7
+TS003,Chicago - Furnishings,Central,Illinois,Furniture,Furnishings,Consumer,164,542,7,29
+TS004,Chicago - Machines,Central,Illinois,Technology,Machines,Home Office,785,1008,4,3
+TS005,Chicago - Paper,Central,Illinois,Office Supplies,Paper,Home Office,560,367,16,18
+TS006,Chicago - Phones,Central,Illinois,Technology,Phones,Home Office,972,1272,10,6
+TS007,Chicago - Storage,Central,Illinois,Office Supplies,Storage,Consumer,60,1473,2,13
+TS008,Chicago - Tables,Central,Illinois,Furniture,Tables,Home Office,481,109,3,1
+TS009,Dallas - Accessories,Central,Texas,Technology,Accessories,Consumer,398,98,5,10
+TS010,Dallas - Bookcases,Central,Texas,Furniture,Bookcases,Consumer,1352,615,9,4
+TS011,Dallas - Tables,Central,Texas,Furniture,Tables,Consumer,933,307,4,3
+TS012,Decatur - Chairs,Central,Illinois,Furniture,Chairs,Consumer,601,191,3,3
+TS013,Detroit - Binders,Central,Michigan,Office Supplies,Binders,Consumer,896,1065,4,25
+TS014,Houston - Accessories,Central,Texas,Technology,Accessories,Consumer,205,956,6,21
+TS015,Houston - Binders,Central,Texas,Office Supplies,Binders,Consumer,271,1172,18,33
+TS016,Houston - Chairs,Central,Texas,Furniture,Chairs,Consumer,920,1914,7,18
+TS017,Houston - Chairs,Central,Texas,Furniture,Chairs,Corporate,242,344,4,4
+TS018,Houston - Paper,Central,Texas,Office Supplies,Paper,Consumer,467,821,22,50
+TS019,Houston - Phones,Central,Texas,Technology,Phones,Consumer,569,1752,9,21
+TS020,Houston - Storage,Central,Texas,Office Supplies,Storage,Consumer,956,200,10,16
+TS021,Houston - Tables,Central,Texas,Furniture,Tables,Consumer,377,1146,3,7
+TS022,Jackson - Phones,Central,Michigan,Technology,Phones,Home Office,165,378,1,3
+TS023,Milwaukee - Chairs,Central,Wisconsin,Furniture,Chairs,Corporate,1987,1455,11,5
+TS024,San Antonio - Machines,Central,Texas,Technology,Machines,Consumer,288,400,3,2
+TS025,Cleveland - Phones,East,Ohio,Technology,Phones,Consumer,587,780,5,2
+TS026,New York City - Accessories,East,New York,Technology,Accessories,Consumer,219,745,14,20
+TS027,New York City - Accessories,East,New York,Technology,Accessories,Home Office,450,101,9,3
+TS028,New York City - Appliances,East,New York,Office Supplies,Appliances,Consumer,171,1422,3,25
+TS029,New York City - Binders,East,New York,Office Supplies,Binders,Consumer,654,5308,34,88
+TS030,New York City - Binders,East,New York,Office Supplies,Binders,Corporate,1240,244,22,13
+TS031,New York City - Bookcases,East,New York,Furniture,Bookcases,Consumer,498,1876,3,15
+TS032,New York City - Chairs,East,New York,Furniture,Chairs,Consumer,1677,3037,25,19
+TS033,New York City - Chairs,East,New York,Furniture,Chairs,Corporate,416,787,6,5
+TS034,New York City - Furnishings,East,New York,Furniture,Furnishings,Consumer,674,683,23,40
+TS035,New York City - Furnishings,East,New York,Furniture,Furnishings,Corporate,182,302,8,15
+TS036,New York City - Paper,East,New York,Office Supplies,Paper,Consumer,403,369,53,41
+TS037,New York City - Paper,East,New York,Office Supplies,Paper,Corporate,430,265,18,15
+TS038,New York City - Paper,East,New York,Office Supplies,Paper,Home Office,118,361,7,18
+TS039,New York City - Phones,East,New York,Technology,Phones,Consumer,1440,2128,23,26
+TS040,New York City - Phones,East,New York,Technology,Phones,Corporate,983,1096,11,9
+TS041,New York City - Storage,East,New York,Office Supplies,Storage,Corporate,2157,1547,29,11
+TS042,New York City - Storage,East,New York,Office Supplies,Storage,Consumer,1078,1947,20,40
+TS043,New York City - Tables,East,New York,Furniture,Tables,Corporate,3579,385,17,2
+TS044,New York City - Tables,East,New York,Furniture,Tables,Consumer,1018,1045,4,5
+TS045,Philadelphia - Accessories,East,Pennsylvania,Technology,Accessories,Home Office,84,437,3,4
+TS046,Philadelphia - Appliances,East,Pennsylvania,Office Supplies,Appliances,Consumer,1962,315,11,18
+TS047,Philadelphia - Binders,East,Pennsylvania,Office Supplies,Binders,Corporate,182,666,15,38
+TS048,Philadelphia - Binders,East,Pennsylvania,Office Supplies,Binders,Consumer,299,178,10,25
+TS049,Philadelphia - Chairs,East,Pennsylvania,Furniture,Chairs,Consumer,887,2073,3,11
+TS050,Philadelphia - Chairs,East,Pennsylvania,Furniture,Chairs,Corporate,387,128,2,3
+TS051,Philadelphia - Paper,East,Pennsylvania,Office Supplies,Paper,Consumer,83,456,14,26
+TS052,Philadelphia - Phones,East,Pennsylvania,Technology,Phones,Consumer,997,1283,15,27
+TS053,Philadelphia - Phones,East,Pennsylvania,Technology,Phones,Home Office,1277,801,10,9
+TS054,Philadelphia - Phones,East,Pennsylvania,Technology,Phones,Corporate,1006,750,10,17
+TS055,Philadelphia - Storage,East,Pennsylvania,Office Supplies,Storage,Corporate,756,592,12,10
+TS056,Toledo - Phones,East,Ohio,Technology,Phones,Corporate,369,119,9,3
+TS057,Columbus - Furnishings,South,Georgia,Furniture,Furnishings,Corporate,60,595,5,6
+TS058,Columbus - Storage,South,Georgia,Office Supplies,Storage,Home Office,541,1268,5,9
+TS059,Lakeland - Phones,South,Florida,Technology,Phones,Corporate,324,250,3,2
+TS060,Memphis - Tables,South,Tennessee,Furniture,Tables,Consumer,190,371,3,3
+TS061,Richmond - Phones,South,Virginia,Technology,Phones,Consumer,206,504,5,4
+TS062,Los Angeles - Accessories,West,California,Technology,Accessories,Consumer,1342,1713,13,35
+TS063,Los Angeles - Accessories,West,California,Technology,Accessories,Corporate,925,727,17,17
+TS064,Los Angeles - Appliances,West,California,Office Supplies,Appliances,Consumer,588,499,10,13
+TS065,Los Angeles - Appliances,West,California,Office Supplies,Appliances,Corporate,613,164,17,10
+TS066,Los Angeles - Binders,West,California,Office Supplies,Binders,Consumer,185,1544,25,45
+TS067,Los Angeles - Chairs,West,California,Furniture,Chairs,Consumer,3178,1660,13,20
+TS068,Los Angeles - Chairs,West,California,Furniture,Chairs,Corporate,185,1676,3,19
+TS069,Los Angeles - Copiers,West,California,Technology,Copiers,Consumer,480,640,2,4
+TS070,Los Angeles - Furnishings,West,California,Furniture,Furnishings,Consumer,1410,454,42,25
+TS071,Los Angeles - Furnishings,West,California,Furniture,Furnishings,Corporate,229,331,13,19
+TS072,Los Angeles - Machines,West,California,Technology,Machines,Consumer,1920,3892,3,16
+TS073,Los Angeles - Paper,West,California,Office Supplies,Paper,Consumer,360,1134,32,76
+TS074,Los Angeles - Paper,West,California,Office Supplies,Paper,Home Office,478,212,23,15
+TS075,Los Angeles - Paper,West,California,Office Supplies,Paper,Corporate,344,267,21,23
+TS076,Los Angeles - Phones,West,California,Technology,Phones,Home Office,5158,544,17,10
+TS077,Los Angeles - Phones,West,California,Technology,Phones,Consumer,1376,3575,15,37
+TS078,Los Angeles - Phones,West,California,Technology,Phones,Corporate,1005,1201,13,15
+TS079,Los Angeles - Storage,West,California,Office Supplies,Storage,Consumer,1753,1723,21,19
+TS080,Los Angeles - Storage,West,California,Office Supplies,Storage,Corporate,852,833,9,10
+TS081,Los Angeles - Tables,West,California,Furniture,Tables,Corporate,799,519,14,7
+TS082,San Diego - Phones,West,California,Technology,Phones,Corporate,1704,312,5,3
+TS083,San Francisco - Accessories,West,California,Technology,Accessories,Consumer,345,1163,10,21
+TS084,San Francisco - Appliances,West,California,Office Supplies,Appliances,Consumer,53,1642,2,12
+TS085,San Francisco - Binders,West,California,Office Supplies,Binders,Consumer,2904,345,28,25
+TS086,San Francisco - Chairs,West,California,Furniture,Chairs,Home Office,121,681,1,12
+TS087,San Francisco - Furnishings,West,California,Furniture,Furnishings,Consumer,435,364,7,20
+TS088,San Francisco - Paper,West,California,Office Supplies,Paper,Home Office,317,653,12,14
+TS089,San Francisco - Phones,West,California,Technology,Phones,Consumer,1102,4689,11,34
+TS090,San Francisco - Storage,West,California,Office Supplies,Storage,Consumer,1760,965,16,22
+TS091,San Francisco - Supplies,West,California,Office Supplies,Supplies,Corporate,4938,239,6,2
+TS092,Seattle - Accessories,West,Washington,Technology,Accessories,Corporate,576,1447,12,17
+TS093,Seattle - Accessories,West,Washington,Technology,Accessories,Consumer,1339,495,13,6
+TS094,Seattle - Binders,West,Washington,Office Supplies,Binders,Consumer,97,3692,5,42
+TS095,Seattle - Chairs,West,Washington,Furniture,Chairs,Consumer,1109,849,14,6
+TS096,Seattle - Paper,West,Washington,Office Supplies,Paper,Corporate,242,495,7,16
+TS097,Seattle - Storage,West,Washington,Office Supplies,Storage,Consumer,359,659,10,6
+TS098,Seattle - Storage,West,Washington,Office Supplies,Storage,Home Office,649,212,8,10
+TS099,Seattle - Tables,West,Washington,Furniture,Tables,Corporate,4287,1769,10,10
+TS100,Seattle - Tables,West,Washington,Furniture,Tables,Consumer,959,1387,5,10

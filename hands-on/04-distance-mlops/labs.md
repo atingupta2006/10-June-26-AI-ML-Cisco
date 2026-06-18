@@ -14,9 +14,9 @@ Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 ---
 
-## Expected outcomes
+## Quick checks
 
-| After lab | Check |
+| Lab | You should have |
 |-----------|--------|
 | Lab 1 | Cosine similarity ≈ **0.90** between first two loans |
 | Lab 2 | KNN k=**5**; test accuracy ≈ **0.55** |
@@ -46,9 +46,9 @@ Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 Compute Euclidean, Manhattan, and cosine distances between two loan feature vectors.
 
-**Estimated time:** ~40 min
+**Time:** ~40 min
 
-## Lab flow
+## Flow
 
 ```text
   select two loans → numpy vectors → Euclidean / Manhattan / cosine
@@ -61,7 +61,7 @@ Compute Euclidean, Manhattan, and cosine distances between two loan feature vect
 3. Change to rows 10 and 50 (`iloc[9]`, `iloc[49]`) and note which metric changes most.
 4. Explain why scaling matters before distance-based algorithms (preview for Lab 2).
 
-## Example result
+## Numbers to compare
 
 ```text
 Euclidean distance: 69370.1405
@@ -69,7 +69,7 @@ Manhattan distance: 71367.0300
 cosine similarity: 0.8960
 ```
 
-## Success criteria
+## Done when
 
 * Script runs without errors.
 * All three metrics printed for the same pair of loans.
@@ -83,9 +83,9 @@ cosine similarity: 0.8960
 
 Train a K-Nearest Neighbors classifier with **k = 5** on scaled numeric loan features.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   StandardScaler → KNeighborsClassifier(5) → fit → predict → accuracy
@@ -98,7 +98,7 @@ Train a K-Nearest Neighbors classifier with **k = 5** on scaled numeric loan fea
 3. Inspect sample predictions — are both classes (0 and 1) predicted?
 4. Compare accuracy to Day 3 logistic regression (~0.59).
 
-## Example result
+## Numbers to compare
 
 ```text
 k (neighbors): 5
@@ -106,7 +106,7 @@ test accuracy: 0.5500
 sample predictions (first 5): [1, 0, 1, 0, 1]
 ```
 
-## Success criteria
+## Done when
 
 * Pipeline includes scaling before KNN.
 * Test accuracy printed (expect ≈ **0.55**).
@@ -120,9 +120,9 @@ sample predictions (first 5): [1, 0, 1, 0, 1]
 
 Sweep candidate **k** values and pick the one with highest test accuracy.
 
-**Estimated time:** ~35 min
+**Time:** ~35 min
 
-## Lab flow
+## Flow
 
 ```text
   for k in [1,3,5,7,9,11,15] → fit → accuracy → select best k
@@ -135,13 +135,13 @@ Sweep candidate **k** values and pick the one with highest test accuracy.
 3. Plot accuracy vs k (optional matplotlib extension).
 4. Discuss bias–variance: what happens at k=1 vs k=15?
 
-## Example result
+## Numbers to compare
 
 ```text
 best k: 3 (accuracy 0.5900)
 ```
 
-## Success criteria
+## Done when
 
 * All seven **k** values evaluated.
 * Best **k** printed (expect **3** at ≈ **0.59** accuracy).
@@ -155,9 +155,9 @@ best k: 3 (accuracy 0.5900)
 
 Expose the trained KNN model as a REST API and verify it with FastAPI's `TestClient` (no live server required for the lab script).
 
-**Estimated time:** ~55 min
+**Time:** ~55 min
 
-## Lab flow
+## Flow
 
 ```text
   train model → define FastAPI app → GET /health → POST /predict → TestClient
@@ -170,7 +170,7 @@ Expose the trained KNN model as a REST API and verify it with FastAPI's `TestCli
 3. To run a live server: `uvicorn lab04_fastapi_scoring_api:app --reload` then POST to `http://127.0.0.1:8000/predict`.
 4. Change the sample JSON body and observe `default_probability` change.
 
-## Example result
+## Numbers to compare
 
 ```text
 GET /health -> 200 {'status': 'ok'}
@@ -178,7 +178,7 @@ POST /predict -> 200
 response body: {'default_probability': 0.2, 'default_label': 0}
 ```
 
-## Success criteria
+## Done when
 
 * `/health` returns status **ok**.
 * `/predict` accepts JSON with five numeric fields and returns probability + label.
@@ -192,9 +192,9 @@ response body: {'default_probability': 0.2, 'default_label': 0}
 
 Use FeatureTools Deep Feature Synthesis (DFS) to auto-generate features from the loans entity set.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   EntitySet → add_dataframe(loans) → dfs(max_depth=1) → correlation ranking
@@ -207,7 +207,7 @@ Use FeatureTools Deep Feature Synthesis (DFS) to auto-generate features from the
 3. Review top features correlated with `default`.
 4. Compare DFS output columns to the hand-picked Day 3 features.
 
-## Example result
+## Numbers to compare
 
 ```text
 input columns: 7
@@ -216,7 +216,7 @@ feature matrix shape: (1000, 6)
 top |corr| with default: int_rate: 0.2084
 ```
 
-## Success criteria
+## Done when
 
 * Feature matrix has **1,000** rows.
 * Engineered feature count printed.
@@ -230,9 +230,9 @@ top |corr| with default: int_rate: 0.2084
 
 Log a KNN training run to MLflow, write `metrics.json`, and version it with DVC (`dvc init`, `dvc add`, `dvc status`).
 
-**Estimated time:** ~55 min
+**Time:** ~55 min
 
-## Lab flow
+## Flow
 
 ```text
   train model → MLflow log → metrics.json → dvc add → metrics.json.dvc
@@ -245,7 +245,7 @@ Log a KNN training run to MLflow, write `metrics.json`, and version it with DVC 
 3. Confirm DVC: `output/metrics.json.dvc` exists under `` and `dvc status` is clean.
 4. Launch MLflow UI: `mlflow ui --backend-store-uri sqlite:///mlflow.db` (from `04-distance-mlops/output`).
 
-## Example result
+## Numbers to compare
 
 ```text
 experiment: cisco-aiml-day04-lending-club
@@ -255,7 +255,7 @@ metrics artifact: metrics.json
 DVC pointer: output/metrics.json.dvc
 ```
 
-## Success criteria
+## Done when
 
 * MLflow experiment and run created without error.
 * Parameters (`k`) and metric (`accuracy`) logged.

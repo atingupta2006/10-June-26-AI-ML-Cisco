@@ -1,19 +1,21 @@
 # Lab execution guide
 
-## One environment for all six days
+## Environment
 
-Use **one** virtual environment at `.venv` in the repository root.
+Use **one** virtual environment at the repo root (`.venv`).
 
-### First-time setup
+### First time
 
-**Windows (PowerShell):**
+**Windows:**
 
 ```powershell
 .\setup_student_env.ps1
 .\.venv\Scripts\Activate.ps1
 ```
 
-**Linux, macOS, WSL, Azure VM:**
+Or run `setup_student_env.bat` from Explorer.
+
+**Linux / macOS / WSL:**
 
 ```bash
 chmod +x setup_student_env.sh
@@ -21,62 +23,64 @@ chmod +x setup_student_env.sh
 source .venv/bin/activate
 ```
 
-Requires **Python 3.10+**. The script installs packages from [`requirements-student.txt`](../requirements-student.txt), registers the Jupyter kernel **Python (cisco-aiml-lab)**, and creates empty `output/` folders under each day.
+Needs **Python 3.10+**. The script installs [requirements-student.txt](../requirements-student.txt), registers the Jupyter kernel **Python (cisco-aiml-lab)**, and creates empty `output/` folders under each day.
 
-### Every lab session
+### Each session
 
 ```bash
 source .venv/bin/activate          # Windows: .\.venv\Scripts\Activate.ps1
-cd hands-on/<day-folder>/notebooks       # pick the day
+cd hands-on/<day-folder>/notebooks
 jupyter lab
 ```
 
-In Jupyter: **Kernel → Change kernel → Python (cisco-aiml-lab)**.
+Kernel → **Python (cisco-aiml-lab)**.
 
-Work through `notebooks/lab01` … `lab06` **in order**. Saved plots, JSON reports, and MLflow files land in `hands-on/<day-folder>/output/`.
-
----
-
-## Workflow
-
-1. Open the day folder under `hands-on/<day-folder>/`.
-2. Read `README.md` then `labs.md`.
-3. Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
-4. Compare outputs to **Example result** and **Success criteria** in each lab.
+Run `lab01` through `lab06` in order. Plots and MLflow files go into `hands-on/<day>/output/`.
 
 ---
 
-## Verify your setup
+## Suggested workflow
+
+1. Open the day folder under `hands-on/`.
+2. Skim `README.md`, then open `labs.md` for that day's tasks.
+3. Work through notebooks in `notebooks/` in order.
+4. Compare your numbers to the **Numbers to compare** section in `labs.md`.
+
+---
+
+## Smoke test
 
 ```bash
 source .venv/bin/activate
-python -c "import pandas, numpy, sklearn, matplotlib, seaborn, shap; print('packages ok')"
+python -c "import pandas, numpy, sklearn, matplotlib, seaborn, shap; print('ok')"
 ```
 
-Open `hands-on/01-data-science-introduction/notebooks/lab01_ai_ml_ds.ipynb` and run the first code cell to confirm the kernel works.
+Open `hands-on/01-data-science-introduction/notebooks/lab01_ai_ml_ds.ipynb` and run the first code cell.
 
 ---
 
-## Generated folders (normal)
+## Folders that appear after you run labs
 
-| Folder | Created by | Action |
-|--------|------------|--------|
-| `hands-on/<day-folder>/output/` | Notebooks saving plots, reports, `mlflow.db` | Keep; gitignored except `.gitkeep` |
-| `mlruns/` or `**/mlruns/` | MLflow default artifact store (some environments) | Safe to delete; not required for class |
+| Folder | What it is |
+|--------|------------|
+| `hands-on/<day>/output/` | Saved plots, JSON, `mlflow.db` |
+| `mlruns/` (sometimes) | MLflow default store on some setups — safe to delete |
+
+These are gitignored; you don't need to commit them.
 
 ---
 
-## Checkpoint datasets
+## Lab datasets (row counts)
 
-| Dataset | Rows | Days |
-|---------|------|------|
-| team_sales.csv | **20** | 1 |
-| Zomato | **500** | 2 |
-| Lending Club | **1,000** | 3–4 |
-| NYSE daily | **500** (25 symbols in labs) | 5 |
-| Credit card | **1,000** (**10** fraud) | 6 |
+| File | Rows | Days |
+|------|------|------|
+| `team_sales.csv` | 100 | 1 |
+| Zomato | 500 | 2 |
+| Lending Club | 1,000 | 3–4 |
+| NYSE | 500 | 5 |
+| Credit card | 1,000 (10 fraud) | 6 |
 
-Files live in [`data/`](../data/README.md). Do not substitute full Kaggle downloads unless instructed.
+Paths under [`data/`](../data/README.md).
 
 ---
 

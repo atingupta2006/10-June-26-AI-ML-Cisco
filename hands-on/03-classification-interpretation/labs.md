@@ -16,9 +16,9 @@ Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 ---
 
-## Expected outcomes
+## Quick checks
 
-| After lab | Check |
+| Lab | You should have |
 |-----------|--------|
 | Lab 1 | `rows` = **1000**; P(default) ≈ **0.49** |
 | Lab 2 | Train **800** / test **200**; sample predictions mix 0 and 1 |
@@ -48,9 +48,9 @@ Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 Connect observed default rates to probability, odds, and log-odds (logit) — the foundation of logistic regression.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   load loans → P(default) → odds → log-odds → worked example
@@ -63,7 +63,7 @@ Connect observed default rates to probability, odds, and log-odds (logit) — th
 3. Complete the manual odds check and inverse-logit cells.
 4. Answer reflection questions linking log-odds to Lab 2 logistic regression.
 
-## Example result
+## Numbers to compare
 
 ```text
 rows: 1000
@@ -72,7 +72,7 @@ odds of default: 0.9417
 log-odds (logit): -0.0600
 ```
 
-## Success criteria
+## Done when
 
 * Script runs without errors.
 * `rows` = **1000**.
@@ -86,9 +86,9 @@ log-odds (logit): -0.0600
 
 Fit logistic regression to predict loan default from numeric borrower features.
 
-**Estimated time:** ~55 min
+**Time:** ~55 min
 
-## Lab flow
+## Flow
 
 ```text
   features + target → train/test split → LogisticRegression.fit → probabilities
@@ -101,7 +101,7 @@ Fit logistic regression to predict loan default from numeric borrower features.
 3. Compare `predict_proba` vs `predict` in the comparison table (first 3 test rows).
 4. Complete the manual log-odds cell and relate it to the sigmoid plot.
 
-## Example result
+## Numbers to compare
 
 ```text
 train size: 800, test size: 200
@@ -110,7 +110,7 @@ sample P(default): [0.685  0.355  0.5472]
 sample predictions: [1, 0, 1]
 ```
 
-## Success criteria
+## Done when
 
 * Model trains on **800** rows and evaluates on **200**.
 * Five numeric features used; intercept and coefficients printed.
@@ -124,9 +124,9 @@ sample predictions: [1, 0, 1]
 
 Evaluate classifier performance with confusion matrix, accuracy, precision, recall, and F1.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   predict test set → confusion_matrix → precision / recall / F1
@@ -139,7 +139,7 @@ Evaluate classifier performance with confusion matrix, accuracy, precision, reca
 3. Record accuracy, precision, recall, and F1.
 4. Review the threshold table (0.3–0.7) and discuss precision vs recall at **0.4** vs **0.5**.
 
-## Example result
+## Numbers to compare
 
 ```text
 confusion matrix:
@@ -149,7 +149,7 @@ accuracy: 0.5900
 F1: 0.5729
 ```
 
-## Success criteria
+## Done when
 
 * Confusion matrix is 2×2 with non-zero entries in all cells.
 * Accuracy, precision, recall, and F1 are printed.
@@ -163,9 +163,9 @@ F1: 0.5729
 
 Plot the ROC curve and compute area under the curve (AUC) for ranking ability across thresholds.
 
-**Estimated time:** ~45 min
+**Time:** ~45 min
 
-## Lab flow
+## Flow
 
 ```text
   predict_proba → roc_curve → auc → save plot
@@ -178,14 +178,14 @@ Plot the ROC curve and compute area under the curve (AUC) for ranking ability ac
 3. Compare AUC (~**0.63**) to **0.5** random baseline.
 4. Review the Youden's J point — threshold where TPR − FPR is largest.
 
-## Example result
+## Numbers to compare
 
 ```text
 AUC: 0.6326
 plot saved: roc_curve.png
 ```
 
-## Success criteria
+## Done when
 
 * `output/roc_curve.png` is created.
 * AUC printed and **> 0.5**.
@@ -199,9 +199,9 @@ plot saved: roc_curve.png
 
 Build an end-to-end `Pipeline` with `ColumnTransformer` for scaling numeric columns and one-hot encoding categoricals.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   ColumnTransformer → Pipeline(preprocess + clf) → fit → predict
@@ -214,14 +214,14 @@ Build an end-to-end `Pipeline` with `ColumnTransformer` for scaling numeric colu
 3. Inspect which columns are numeric vs categorical in `_data.py`.
 4. Compare full pipeline accuracy to the numeric-only baseline in the notebook extension.
 
-## Example result
+## Numbers to compare
 
 ```text
 pipeline steps: ['preprocess', 'clf']
 test accuracy: 0.6350
 ```
 
-## Success criteria
+## Done when
 
 * Pipeline has **two** named steps: `preprocess` and `clf`.
 * Test accuracy printed (expect ≈ **0.64**).
@@ -235,9 +235,9 @@ test accuracy: 0.6350
 
 Use SHAP values to explain which features drive individual default predictions.
 
-**Estimated time:** ~55 min
+**Time:** ~55 min
 
-## Lab flow
+## Flow
 
 ```text
   scale features → fit logistic model → SHAP Explainer → mean |SHAP| ranking
@@ -250,14 +250,14 @@ Use SHAP values to explain which features drive individual default predictions.
 3. Discuss why `int_rate` often ranks highly for credit risk.
 4. Inspect the SHAP bar and waterfall plots saved to `output/`.
 
-## Example result
+## Numbers to compare
 
 ```text
 SHAP values shape: (20, 5)
 top driver (mean |SHAP|): int_rate
 ```
 
-## Success criteria
+## Done when
 
 * SHAP values shape is **(20, 5)** for 20 test rows and 5 features.
 * Mean |SHAP| printed per feature.

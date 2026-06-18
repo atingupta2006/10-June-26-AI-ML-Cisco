@@ -1,0 +1,46 @@
+# --- Maintainer-only (local workspace; never publish) ---
+internal/
+tools/
+data-heavy/
+hands-on/*/notebooks-extra/
+
+# --- Generated / QA artifacts (not for students) ---
+data/manifest.json
+**/manifest.json
+.ipynb_checkpoints/
+
+# --- Student lab artifacts (generated when notebooks run) ---
+hands-on/**/output/*
+!hands-on/**/output/.gitkeep
+**/mlruns/
+mlruns/
+
+# --- Trainer-only Python scripts (see internal/trainer-scripts/) ---
+hands-on/**/scripts/
+
+# --- DVC local state (Day 4 Lab 6 — students generate on their machine) ---
+hands-on/04-distance-mlops/.dvc/
+hands-on/04-distance-mlops/.dvcignore
+hands-on/04-distance-mlops/dvc.lock
+hands-on/04-distance-mlops/output/*.dvc
+
+# --- Python bytecode ---
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Local Python environment ---
+.venv/
+venv/
+env/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Secrets ---
+.env
+.env.*
+*.pem

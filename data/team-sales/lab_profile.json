@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-06-18T01:03:20Z",
+  "source": {
+    "name": "Tableau Sample Superstore",
+    "url": "https://raw.githubusercontent.com/Oyiwoche/Superstore-Analytics/main/Sample%20-%20Superstore.csv",
+    "license": "Public sample dataset (Tableau Community)",
+    "derivation": "US retail orders aggregated by city + sub-category sales team; Q1 vs Q2 dollar sales pooled across 2011-2014 calendar quarters"
+  },
+  "rows": 100,
+  "regions": 4,
+  "region_names": [
+    "Central",
+    "East",
+    "South",
+    "West"
+  ],
+  "q2_mean": 1002.76,
+  "q2_median": 705.0,
+  "q2_std": 954.19,
+  "q2_min": 98,
+  "q2_max": 5308,
+  "outlier_team_id": "TS029",
+  "outlier_team_name": "New York City - Binders",
+  "outlier_q2_sales": 5308,
+  "growth_teams_count": 58,
+  "growth_rate_fraction": 0.58,
+  "total_q2_sales": 100276,
+  "top_region_q2_total": "West",
+  "top_region_pct_growth": "South",
+  "compare_region_volume": "West",
+  "compare_region_growth": "Central",
+  "volume_leader_growth_rate": -0.0239,
+  "volume_leader_team_growth_rate": 0.4872,
+  "growth_leader_rate": 0.3034,
+  "growth_leader_team_growth_rate": 0.6667,
+  "sample_n10_mean_rs42": 810.4,
+  "regional_totals": {
+    "Central": {
+      "q1_sales": 15111,
+      "q2_sales": 19696,
+      "team_count": 24,
+      "growth_rate": 0.3034
+    },
+    "East": {
+      "q1_sales": 26263,
+      "q2_sales": 32226,
+      "team_count": 32,
+      "growth_rate": 0.227
+    },
+    "South": {
+      "q1_sales": 1321,
+      "q2_sales": 2988,
+      "team_count": 5,
+      "growth_rate": 1.2619
+    },
+    "West": {
+      "q1_sales": 46476,
+      "q2_sales": 45366,
+      "team_count": 39,
+      "growth_rate": -0.0239
+    }
+  }
+}

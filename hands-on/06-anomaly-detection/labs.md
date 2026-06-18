@@ -16,9 +16,9 @@ Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 ---
 
-## Expected outcomes
+## Quick checks
 
-| After lab | Check |
+| Lab | You should have |
 |-----------|--------|
 | Lab 1 | **1000** rows; **10** fraud; mean fraud amount ≈ **234** |
 | Lab 2 | Imbalance ≈ **99:1**; baseline F1 = **0.00** |
@@ -48,9 +48,9 @@ Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 Explore statistical outliers in `amount` and `distance_from_home` and compare fraud vs legitimate transactions.
 
-**Estimated time:** ~45 min
+**Time:** ~45 min
 
-## Lab flow
+## Flow
 
 ```text
   load transactions → IQR outlier counts → fraud vs legit means
@@ -63,7 +63,7 @@ Explore statistical outliers in `amount` and `distance_from_home` and compare fr
 3. Identify transactions above the IQR upper bound for `amount`.
 4. Discuss why rule-based outlier flags alone are insufficient for fraud.
 
-## Example result
+## Numbers to compare
 
 ```text
 rows: 1000
@@ -73,7 +73,7 @@ mean amount (fraud): 233.94
 max distance (fraud): 51.72
 ```
 
-## Success criteria
+## Done when
 
 * **1,000** rows and **10** fraud cases confirmed.
 * IQR outlier counts printed for amount and distance.
@@ -87,9 +87,9 @@ max distance (fraud): 51.72
 
 Quantify class imbalance and show why a majority-class baseline fails on fraud detection.
 
-**Estimated time:** ~40 min
+**Time:** ~40 min
 
-## Lab flow
+## Flow
 
 ```text
   class counts → imbalance ratio → DummyClassifier → F1 on fraud
@@ -102,14 +102,14 @@ Quantify class imbalance and show why a majority-class baseline fails on fraud d
 3. Explain why **99%** accuracy can still mean **0** fraud detections.
 4. List metrics better suited to rare events (precision, recall, F1).
 
-## Example result
+## Numbers to compare
 
 ```text
 imbalance ratio (legit:fraud): 99.0:1
 baseline F1 (fraud): 0.0000
 ```
 
-## Success criteria
+## Done when
 
 * Fraud count **10** and imbalance ratio ≈ **99:1**.
 * Baseline F1 for fraud class is **0.00**.
@@ -123,9 +123,9 @@ baseline F1 (fraud): 0.0000
 
 Oversample the minority fraud class on the training set and compare F1 before and after.
 
-**Estimated time:** ~45 min
+**Time:** ~45 min
 
-## Lab flow
+## Flow
 
 ```text
   split train/test → oversample fraud in train → LogisticRegression → F1 compare
@@ -138,14 +138,14 @@ Oversample the minority fraud class on the training set and compare F1 before an
 3. Try undersampling the majority class instead (optional extension).
 4. Discuss overfitting risk when oversampling a tiny fraud set.
 
-## Example result
+## Numbers to compare
 
 ```text
 train fraud before: 8, after oversample: 792
 F1 fraud (oversampled train): 0.6667
 ```
 
-## Success criteria
+## Done when
 
 * Training fraud count increases after oversampling.
 * F1 printed for both approaches.
@@ -159,9 +159,9 @@ F1 fraud (oversampled train): 0.6667
 
 Use Local Outlier Factor (LOF) — a proximity-based method — trained on legitimate transactions to flag anomalies.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   train LOF on legit only → predict test → precision / recall on fraud
@@ -174,14 +174,14 @@ Use Local Outlier Factor (LOF) — a proximity-based method — trained on legit
 3. Adjust `contamination` (e.g. 0.01 vs 0.05) and observe metric changes.
 4. Compare LOF (unsupervised) to supervised models from Day 3.
 
-## Example result
+## Numbers to compare
 
 ```text
 precision (fraud): 0.3333
 recall (fraud): 1.0000
 ```
 
-## Success criteria
+## Done when
 
 * LOF trained on legitimate training rows only.
 * Precision and recall printed.
@@ -195,9 +195,9 @@ recall (fraud): 1.0000
 
 Train a Random Forest ensemble with `class_weight='balanced'` for fraud classification.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   preprocess → RandomForest(100 trees, balanced) → precision / recall / F1
@@ -210,7 +210,7 @@ Train a Random Forest ensemble with `class_weight='balanced'` for fraud classifi
 3. Compare F1 to LOF (Lab 4) and resampled logistic regression (Lab 3).
 4. Increase `n_estimators` to 200 — does F1 change materially?
 
-## Example result
+## Numbers to compare
 
 ```text
 precision (fraud): 1.0000
@@ -218,7 +218,7 @@ recall (fraud): 0.5000
 F1 (fraud): 0.6667
 ```
 
-## Success criteria
+## Done when
 
 * Random Forest with **100** estimators and balanced class weights.
 * All three metrics printed.
@@ -232,9 +232,9 @@ F1 (fraud): 0.6667
 
 Compare baseline, logistic regression, LOF, and Random Forest; save a JSON report of results.
 
-**Estimated time:** ~55 min
+**Time:** ~55 min
 
-## Lab flow
+## Flow
 
 ```text
   run all approaches → metrics table → rank by F1 → save fraud_detection_report.json
@@ -247,14 +247,14 @@ Compare baseline, logistic regression, LOF, and Random Forest; save a JSON repor
 3. Open `output/fraud_detection_report.json`.
 4. Write a 3-sentence executive summary: which model to deploy and why.
 
-## Example result
+## Numbers to compare
 
 ```text
 best model (F1): logistic_regression (F1=0.8)
 report saved: fraud_detection_report.json
 ```
 
-## Success criteria
+## Done when
 
 * Comparison table with at least **4** models.
 * `output/fraud_detection_report.json` created.

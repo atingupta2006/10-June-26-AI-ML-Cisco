@@ -14,22 +14,20 @@
 
 Labs 1, 2, and 5 are **discussion / worksheet** activities (light code).
 
-Labs 3, 4, and 6 are **hands-on** on [`team_sales.csv`](../../data/team-sales/team_sales.csv) (**20** rows) — use **Excel and/or the Jupyter notebook** (notebooks are the primary path). Lab 6 is a **group Excel activity** with Python verification in the notebook.
-
-> **Note:** The `` folder is trainer-only and not part of the student handout.
+Labs 3, 4, and 6 are **hands-on** on [`team_sales.csv`](../../data/team-sales/team_sales.csv) (**100** rows) — use **Excel and/or the Jupyter notebook** (notebooks are the primary path). Lab 6 is a **group Excel activity** with Python verification in the notebook.
 
 ---
 
-## Expected outcomes
+## Quick checks
 
-| After lab | Check |
+| Lab | You should have |
 |-----------|--------|
 | Lab 1 | Worksheet: AI ⊃ ML ⊃ DS nesting correct |
 | Lab 2 | Worksheet: all six CRISP-DM phases named |
-| Lab 3 | Mean q2_sales ≈ **150.30**; regional tables; outlier analysis |
-| Lab 4 | Growth rate (q2 > q1) = **0.75**; sampling distribution explored |
+| Lab 3 | Mean q2_sales ≈ **1002.76**; regional tables; outlier analysis |
+| Lab 4 | Growth rate (q2 > q1) = **0.58**; sampling distribution explored |
 | Lab 5 | Worksheet: 3+ categories with 2+ tools each; CRISP-DM tool map |
-| Lab 6 | **15** teams grew; top region **North**; % growth story for East |
+| Lab 6 | **58** teams grew; top region **West**; % growth story for **Central** |
 
 ## Lab pacing
 
@@ -51,9 +49,9 @@ Labs 3, 4, and 6 are **hands-on** on [`team_sales.csv`](../../data/team-sales/te
 
 Distinguish Artificial Intelligence, Machine Learning, and Data Science using the Netflix-style use-case from the morning session.
 
-**Estimated time:** ~30 min
+**Time:** ~30 min
 
-## Lab flow
+## Flow
 
 ```text
   instructor use-case → Venn diagram → worksheet definitions → group share-out
@@ -67,7 +65,7 @@ Distinguish Artificial Intelligence, Machine Learning, and Data Science using th
 4. Write one-sentence definitions for AI, ML, and DS in your worksheet.
 5. Give one example of each that is **not** the Netflix case.
 
-## Success criteria
+## Done when
 
 * Worksheet completed with nested relationship (AI ⊃ ML; DS overlaps ML).
 * At least one original example per term.
@@ -80,7 +78,7 @@ Distinguish Artificial Intelligence, Machine Learning, and Data Science using th
 
 Map the CRISP-DM / data science lifecycle phases to a business problem your table chooses.
 
-**Estimated time:** ~30 min
+**Time:** ~30 min
 
 ## Tasks
 
@@ -89,7 +87,7 @@ Map the CRISP-DM / data science lifecycle phases to a business problem your tabl
 3. Fill in all six CRISP-DM phases with activity and deliverable.
 4. Identify phases that apply without ML.
 
-## Success criteria
+## Done when
 
 * All **six** phases named in order.
 * Each phase has an activity and deliverable.
@@ -102,27 +100,27 @@ Map the CRISP-DM / data science lifecycle phases to a business problem your tabl
 
 Deep descriptive statistics on Q2 team sales — Excel **and** pandas, with regional and outlier analysis.
 
-**Estimated time:** ~90 min
+**Time:** ~90 min
 
 ## Tasks
 
 1. Open `notebooks/lab03_statistics_basics.ipynb`.
 2. Mirror Excel formulas (`AVERAGE`, `MEDIAN`, `STDEV.S`, `AVERAGEIF`) in pandas.
-3. Measure Team_13 outlier impact; apply IQR rule; plot distributions.
+3. Measure TS029 outlier impact; apply IQR rule; plot distributions.
 4. Aggregate by region; rank teams by % growth.
 
-## Example result
+## Numbers to compare
 
 ```text
-mean q2_sales: 150.30 | median: 148.50 | std: 34.74
-top outlier: Team_13 (210)
+mean q2_sales: 1002.76 | median: 705.0 | std: 954.19
+top outlier: TS029 (5308)
 ```
 
-## Success criteria
+## Done when
 
-* Mean ≈ **150.30** and median ≈ **148.50**.
-* Regional table sums to **20** teams.
-* You can explain mean vs median with Team_13 example.
+* Mean ≈ **1002.76** and median ≈ **705.0**.
+* Regional table sums to **100** teams.
+* You can explain mean vs median with TS029 example.
 
 ---
 
@@ -132,7 +130,7 @@ top outlier: Team_13 (210)
 
 Population vs sample, growth hypothesis, regional proportions, and sampling variation.
 
-**Estimated time:** ~100 min
+**Time:** ~100 min
 
 ## Tasks
 
@@ -141,10 +139,10 @@ Population vs sample, growth hypothesis, regional proportions, and sampling vari
 3. Build sampling distribution (20+ draws); optional Excel `RAND` replication.
 4. Compare growth rates across all four regions.
 
-## Success criteria
+## Done when
 
-* Population mean ≈ **150.30**; sample(n=10, rs=42) mean ≈ **132.60**.
-* Growth rate = **0.75**; North = **0.60**.
+* Population mean ≈ **1002.76**; sample(n=10, rs=42) mean ≈ **810.4**.
+* Growth rate = **0.58**; West team-level growth ≈ **0.49**.
 
 ---
 
@@ -154,7 +152,7 @@ Population vs sample, growth hypothesis, regional proportions, and sampling vari
 
 Classify course tools; map to CRISP-DM and Days 2–6; complete org worksheet.
 
-**Estimated time:** ~75 min
+**Time:** ~75 min
 
 ## Tasks
 
@@ -162,7 +160,7 @@ Classify course tools; map to CRISP-DM and Days 2–6; complete org worksheet.
 2. Complete tool matrix, scavenger hunt, and org stack worksheet.
 3. Contrast MLflow vs DVC; map tools to CRISP-DM phases.
 
-## Success criteria
+## Done when
 
 * ≥**3** categories with ≥**2** tools each.
 * MLflow and DVC in MLOps bucket.
@@ -175,18 +173,18 @@ Classify course tools; map to CRISP-DM and Days 2–6; complete org worksheet.
 
 Group Excel pivot analysis of regional sales; verify in pandas; present totals vs % growth.
 
-**Estimated time:** ~110 min
+**Time:** ~110 min
 
 ## Tasks
 
 1. In **Excel**: pivot `team_sales.csv` by region; chart Q2 totals.
 2. Open `notebooks/lab06_excel_group_activity.ipynb` to **verify** your Excel answers.
-3. Prepare one slide: North wins total Q2, but which region wins **% growth**?
+3. Prepare one slide: West wins total Q2, but which major region wins **% growth**? (Central)
 
-## Success criteria
+## Done when
 
 * Regional totals match notebook verification.
-* **15** growth teams; top region **North** (by Q2 total).
+* **58** growth teams; top region **West** (by Q2 total).
 * Group presents one chart and the growth-rate insight.
 
 ---

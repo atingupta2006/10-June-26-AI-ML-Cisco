@@ -15,7 +15,7 @@ Read [lab execution guide](../../docs/lab-execution-guide.md) and open [labs.md]
 
 | File | Rows | Path |
 |------|------|------|
-| Team sales | **20** | [`data/team-sales/team_sales.csv`](../../data/team-sales/team_sales.csv) |
+| Team sales | **100** | [`data/team-sales/team_sales.csv`](../../data/team-sales/team_sales.csv) ([source](https://github.com/Oyiwoche/Superstore-Analytics)) |
 
 ## Labs
 
@@ -32,4 +32,4 @@ Run labs from **`notebooks/`** only. Generated files appear in **`output/`**.
 
 ## Syllabus
 
-[course-content.txt](../../../course-content.txt) | [syllabus coverage](../../docs/syllabus-coverage.md)
+[Course overview](../../docs/course-overview.md)

@@ -16,9 +16,9 @@ Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 ---
 
-## Expected outcomes
+## Quick checks
 
-| After lab | Check |
+| Lab | You should have |
 |-----------|--------|
 | Lab 1 | **25** symbols; k=**4**; inertia ≈ **45.86** |
 | Lab 2 | Suggested k = **3** (largest inertia drop) |
@@ -48,9 +48,9 @@ Run notebooks in `notebooks/` in lab order (`lab01` … `lab06`).
 
 Apply K-Means clustering to per-symbol NYSE features with **k = 4**.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   load NYSE → aggregate per symbol → scale → KMeans(4) → inertia + counts
@@ -63,7 +63,7 @@ Apply K-Means clustering to per-symbol NYSE features with **k = 4**.
 3. Inspect `_data.py` — how are `avg_close` and `volatility` computed?
 4. Change k to 3 and re-run; compare inertia to Lab 2.
 
-## Example result
+## Numbers to compare
 
 ```text
 symbols clustered: 25
@@ -72,7 +72,7 @@ inertia: 45.8634
 cluster counts: {0: 8, 1: 9, 2: 7, 3: 1}
 ```
 
-## Success criteria
+## Done when
 
 * **25** symbols clustered on **4** numeric features.
 * Inertia printed (expect ≈ **45.86**).
@@ -86,9 +86,9 @@ cluster counts: {0: 8, 1: 9, 2: 7, 3: 1}
 
 Use the elbow method to estimate a reasonable **k** by plotting inertia across candidate values.
 
-**Estimated time:** ~40 min
+**Time:** ~40 min
 
-## Lab flow
+## Flow
 
 ```text
   for k in 2..8 → fit KMeans → record inertia → find largest drop
@@ -101,13 +101,13 @@ Use the elbow method to estimate a reasonable **k** by plotting inertia across c
 3. Optional: plot k vs inertia with matplotlib and mark the elbow.
 4. Compare suggested k with the k=4 baseline from Lab 1.
 
-## Example result
+## Numbers to compare
 
 ```text
 suggested k (largest inertia drop): 3
 ```
 
-## Success criteria
+## Done when
 
 * Inertia table printed for k = **2** through **8**.
 * Suggested k printed (expect **3**).
@@ -121,9 +121,9 @@ suggested k (largest inertia drop): 3
 
 Cluster the same symbol features with DBSCAN — a density-based method that can label noise points.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   scale features → DBSCAN(eps, min_samples) → cluster count + noise count
@@ -136,7 +136,7 @@ Cluster the same symbol features with DBSCAN — a density-based method that can
 3. Try `eps=0.8` and `eps=1.5` — how do cluster and noise counts change?
 4. Compare DBSCAN results to K-Means from Lab 1.
 
-## Example result
+## Numbers to compare
 
 ```text
 clusters found: 3
@@ -144,7 +144,7 @@ noise points: 11
 label counts: {-1: 11, 0: 6, 1: 4, 2: 4}
 ```
 
-## Success criteria
+## Done when
 
 * DBSCAN runs without error on **25** symbols.
 * Noise point count printed (expect **11** with default eps).
@@ -158,9 +158,9 @@ label counts: {-1: 11, 0: 6, 1: 4, 2: 4}
 
 Evaluate K-Means clusters with silhouette score, Davies-Bouldin index, and Calinski-Harabasz score.
 
-**Estimated time:** ~45 min
+**Time:** ~45 min
 
-## Lab flow
+## Flow
 
 ```text
   KMeans(k=4) → silhouette / Davies-Bouldin / Calinski-Harabasz
@@ -173,7 +173,7 @@ Evaluate K-Means clusters with silhouette score, Davies-Bouldin index, and Calin
 3. Re-run with k=3 (from Lab 2) and compare silhouette scores.
 4. State which metric is "higher is better" vs "lower is better".
 
-## Example result
+## Numbers to compare
 
 ```text
 silhouette score: 0.2414
@@ -181,7 +181,7 @@ Davies-Bouldin index: 1.0659
 Calinski-Harabasz score: 8.2627
 ```
 
-## Success criteria
+## Done when
 
 * All three metrics printed for k=**4**.
 * Silhouette ≈ **0.24** on classroom data.
@@ -195,9 +195,9 @@ Calinski-Harabasz score: 8.2627
 
 Visualize K-Means and DBSCAN assignments on the same scatter plot (avg_close vs volatility).
 
-**Estimated time:** ~45 min
+**Time:** ~45 min
 
-## Lab flow
+## Flow
 
 ```text
   fit KMeans + DBSCAN → scatter plots → save multi_cluster_view.png
@@ -210,14 +210,14 @@ Visualize K-Means and DBSCAN assignments on the same scatter plot (avg_close vs 
 3. Identify which symbols sit in sparse regions (likely DBSCAN noise).
 4. Discuss why the two side-by-side plots can disagree.
 
-## Example result
+## Numbers to compare
 
 ```text
 symbols plotted: 25
 plot saved: multi_cluster_view.png
 ```
 
-## Success criteria
+## Done when
 
 * `output/multi_cluster_view.png` created.
 * Both K-Means and DBSCAN label counts printed.
@@ -231,9 +231,9 @@ plot saved: multi_cluster_view.png
 
 Summarize K-Means segments with mean feature values and representative symbols per segment.
 
-**Estimated time:** ~50 min
+**Time:** ~50 min
 
-## Lab flow
+## Flow
 
 ```text
   assign segments → groupby means → list sample symbols per segment
@@ -246,14 +246,14 @@ Summarize K-Means segments with mean feature values and representative symbols p
 3. For each segment, name whether it looks like "high price", "low price", or "high volatility".
 4. Write one business use-case for NYSE segmentation (e.g. portfolio grouping).
 
-## Example result
+## Numbers to compare
 
 ```text
 symbols per segment: {0: 8, 1: 9, 2: 7, 3: 1}
 segment 0 sample: ['CSCO', 'DIS', 'MSFT', 'NFLX']
 ```
 
-## Success criteria
+## Done when
 
 * Segment size dict printed for **4** segments.
 * Mean feature table printed per segment.

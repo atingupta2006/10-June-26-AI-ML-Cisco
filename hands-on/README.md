@@ -1,21 +1,21 @@
 # Hands-on labs
 
-Six training days. Each day includes:
+Six folders — one per training day. In each folder:
 
-- `README.md` — concepts and agenda
-- `labs.md` — six labs with objectives, tasks, success criteria
-- `notebooks/` — six core Jupyter labs (**this is what students run**)
-- `output/` — folder for saved plots and lab artifacts (empty until you run notebooks)
+- `README.md` — short intro for that day  
+- `labs.md` — tasks and expected numbers  
+- `notebooks/` — **start here** (`lab01` … `lab06`)  
+- `output/` — where notebooks save plots (empty until you run them)
 
-**Setup:** run `setup_student_env` once — see [lab execution guide](../docs/lab-execution-guide.md). Jupyter kernel: **Python (cisco-aiml-lab)**.
+Run `setup_student_env` once, then use kernel **Python (cisco-aiml-lab)**. Details: [lab execution guide](../docs/lab-execution-guide.md).
 
-| Day | Theme |
+| Day | Folder |
 |-----|--------|
-| [01-data-science-introduction](01-data-science-introduction/README.md) | Data Science introduction |
-| [02-python-for-data-science](02-python-for-data-science/README.md) | Python & Zomato EDA |
-| [03-classification-interpretation](03-classification-interpretation/README.md) | Classification & Lending Club |
-| [04-distance-mlops](04-distance-mlops/README.md) | KNN, MLOps, Lending Club |
-| [05-unsupervised-learning](05-unsupervised-learning/README.md) | Clustering & NYSE |
-| [06-anomaly-detection](06-anomaly-detection/README.md) | Anomaly detection & credit card |
+| 1 | [01-data-science-introduction](01-data-science-introduction/README.md) |
+| 2 | [02-python-for-data-science](02-python-for-data-science/README.md) |
+| 3 | [03-classification-interpretation](03-classification-interpretation/README.md) |
+| 4 | [04-distance-mlops](04-distance-mlops/README.md) |
+| 5 | [05-unsupervised-learning](05-unsupervised-learning/README.md) |
+| 6 | [06-anomaly-detection](06-anomaly-detection/README.md) |
 
-**Note:** `mlruns/` folders (if you see them) are created automatically by MLflow during some labs — safe to ignore or delete; they are not part of the course materials.
+If you see an `mlruns/` folder after Day 4, that's MLflow — you can ignore or delete it.
